@@ -1,2 +1,2 @@
-# GDGA_Shortcourse
-Files for the Genome Design/Genome Analytics Short-course organized by the SBRG
+# GD/GA Short Course
+Files for the Genome Design/Genome Analytics Short Course organized by the SBRG
