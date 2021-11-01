@@ -1,6 +1,0 @@
-['objective', 'time', 'reactions']
-[6.040189458334211, 8.134279251098633, 'GLYCL_deletion|XYLI2_deletion|PGI_deletion|EDA_deletion|PSERT_deletion|PFL_deletion|CYSTA__hr_addin']
-[6.040189459038231, 18.12839126586914, 'GLYCL_deletion|XYLI2_deletion|PGI_deletion|EDA_deletion|PFL_deletion|PSP_L_deletion|CYSTA__hr_addin']
-[6.049457991666721, 29.59606170654297, 'GLYCL_deletion|XYLI2_deletion|PGI_deletion|EDA_deletion|G3PD2_deletion|PFL_deletion|PSP_L_deletion']
-[6.049457992371671, 32.90401077270508, 'GLYCL_deletion|XYLI2_deletion|PGI_deletion|EDA_deletion|G3PD2_deletion|PFL_deletion|PSP_L_deletion']
-[9.395493896666704, 40.51434516906738, 'GLYCL_deletion|XYLI2_deletion|PGI_deletion|EDA_deletion|PFL_deletion|PSP_L_deletion|ACKr_deletion']
