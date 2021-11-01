@@ -1,0 +1,493 @@
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:14:09 2021
+
+Changed value of parameter LogFile to EX_succ_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_succ_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+Optimize a model with 391 rows, 546 columns and 2738 nonzeros
+Model fingerprint: 0xc2192c72
+Variable types: 508 continuous, 38 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+02]
+Presolve removed 39 rows and 52 columns
+Presolve time: 0.00s
+Presolved: 352 rows, 494 columns, 2338 nonzeros
+Variable types: 455 continuous, 39 integer (38 binary)
+Presolve removed 1 rows and 0 columns
+Presolved: 351 rows, 494 columns, 2322 nonzeros
+
+
+Root relaxation: objective 1.272426e+01, 198 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   12.72426    0    3          -   12.72426      -     -    0s
+H    0     0                      -0.0000000   12.72426      -     -    0s
+     0     0   12.72426    0   14   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+     0     2   12.72426    0    4   -0.00000   12.72426      -     -    0s
+*  667   205              26       0.0241000   12.72426      -  27.1    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 1
+  Implied bound: 2
+  MIR: 2
+  Flow cover: 1
+  Inf proof: 3
+  Lazy constraints: 2
+
+Explored 5186 nodes (170508 simplex iterations) in 0.71 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 2: 0.0241 -0 
+No other solutions better than 0.0241
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.409999999996e-02, best bound 2.409999999996e-02, gap 0.0000%
+
+User-callback calls 10626, time in user-callback 0.04 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:16:13 2021
+
+Changed value of parameter LogFile to EX_succ_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_succ_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+Optimize a model with 391 rows, 546 columns and 2738 nonzeros
+Model fingerprint: 0xc2192c72
+Variable types: 508 continuous, 38 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+02]
+Presolve removed 39 rows and 52 columns
+Presolve time: 0.00s
+Presolved: 352 rows, 494 columns, 2338 nonzeros
+Variable types: 455 continuous, 39 integer (38 binary)
+Presolve removed 1 rows and 0 columns
+Presolved: 351 rows, 494 columns, 2322 nonzeros
+
+
+Root relaxation: objective 1.272426e+01, 198 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   12.72426    0    3          -   12.72426      -     -    0s
+H    0     0                      -0.0000000   12.72426      -     -    0s
+     0     0   12.72426    0   14   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+     0     2   12.72426    0    4   -0.00000   12.72426      -     -    0s
+*  667   205              26       0.0241000   12.72426      -  27.1    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 1
+  Implied bound: 2
+  MIR: 2
+  Flow cover: 1
+  Inf proof: 3
+  Lazy constraints: 2
+
+Explored 5186 nodes (170508 simplex iterations) in 0.71 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 2: 0.0241 -0 
+No other solutions better than 0.0241
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.409999999996e-02, best bound 2.409999999996e-02, gap 0.0000%
+
+User-callback calls 10606, time in user-callback 0.05 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:17:27 2021
+
+Changed value of parameter LogFile to EX_succ_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_succ_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+Optimize a model with 391 rows, 546 columns and 2738 nonzeros
+Model fingerprint: 0x657f172d
+Variable types: 508 continuous, 38 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+02]
+Presolve removed 224 rows and 363 columns
+Presolve time: 0.01s
+Presolved: 167 rows, 183 columns, 807 nonzeros
+Variable types: 145 continuous, 38 integer (38 binary)
+Presolved: 167 rows, 183 columns, 807 nonzeros
+
+
+Root relaxation: objective 1.272426e+01, 78 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   12.72426    0    2          -   12.72426      -     -    0s
+H    0     0                      -0.0000000   12.72426      -     -    0s
+     0     0   12.72426    0    3   -0.00000   12.72426      -     -    0s
+H    0     0                       0.0241000   12.72426      -     -    0s
+     0     0   12.72426    0    8    0.02410   12.72426      -     -    0s
+     0     0   12.72426    0    8    0.02410   12.72426      -     -    0s
+     0     2   12.72426    0    8    0.02410   12.72426      -     -    0s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 8
+  Implied bound: 6
+  MIR: 1
+  Inf proof: 3
+  Relax-and-lift: 1
+
+Explored 1971 nodes (19350 simplex iterations) in 0.17 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 2: 0.0241 -0 
+No other solutions better than 0.0241
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.410000000000e-02, best bound 2.410000000000e-02, gap 0.0000%
+
+User-callback calls 4112, time in user-callback 0.01 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:18:39 2021
+
+Changed value of parameter LogFile to EX_succ_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_succ_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+Optimize a model with 391 rows, 546 columns and 2737 nonzeros
+Model fingerprint: 0x0355f132
+Variable types: 508 continuous, 38 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+02]
+Presolve removed 227 rows and 367 columns
+Presolve time: 0.01s
+Presolved: 164 rows, 179 columns, 796 nonzeros
+Variable types: 141 continuous, 38 integer (38 binary)
+Presolved: 164 rows, 179 columns, 796 nonzeros
+
+
+Root relaxation: objective 1.272426e+01, 83 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   12.72426    0    2          -   12.72426      -     -    0s
+H    0     0                      -0.0000000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+H    0     0                       0.0241000   12.72426      -     -    0s
+     0     0   12.72426    0    6    0.02410   12.72426      -     -    0s
+     0     0   12.72426    0    6    0.02410   12.72426      -     -    0s
+     0     2   12.72426    0    6    0.02410   12.72426      -     -    0s
+H   33    28                       0.3573400   12.72414  3461%  10.9    0s
+H  245    69                       0.4055400   12.72355  3037%   7.5    0s
+
+Cutting planes:
+  Gomory: 2
+  Implied bound: 7
+  Relax-and-lift: 3
+
+Explored 1168 nodes (9776 simplex iterations) in 0.13 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 4: 0.40554 0.35734 0.0241 -0 
+No other solutions better than 0.40554
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.055400000000e-01, best bound 4.055400000000e-01, gap 0.0000%
+
+User-callback calls 2492, time in user-callback 0.03 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:25:10 2021
+
+Changed value of parameter LogFile to EX_succ_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_succ_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+Optimize a model with 383 rows, 540 columns and 2694 nonzeros
+Model fingerprint: 0xdf3468da
+Variable types: 504 continuous, 36 integer (36 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+02]
+Presolve removed 226 rows and 365 columns
+Presolve time: 0.00s
+Presolved: 157 rows, 175 columns, 773 nonzeros
+Variable types: 139 continuous, 36 integer (36 binary)
+Presolved: 157 rows, 175 columns, 773 nonzeros
+
+
+Root relaxation: objective 1.272426e+01, 71 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   12.72426    0    3          -   12.72426      -     -    0s
+H    0     0                      -0.0000000   12.72426      -     -    0s
+     0     0   12.72426    0    7   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    2   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    5   -0.00000   12.72426      -     -    0s
+     0     0   12.72426    0    6   -0.00000   12.72426      -     -    0s
+H    0     0                       0.0241000   12.72426      -     -    0s
+     0     0   12.72426    0    8    0.02410   12.72426      -     -    0s
+     0     0   12.72426    0    8    0.02410   12.72426      -     -    0s
+     0     2   12.72426    0    8    0.02410   12.72426      -     -    0s
+H   13    12                       0.4055400   12.72416  3038%   9.6    0s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 2
+  Implied bound: 4
+  MIR: 1
+  Relax-and-lift: 3
+
+Explored 252 nodes (2345 simplex iterations) in 0.09 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 3: 0.40554 0.0241 -0 
+No other solutions better than 0.40554
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.055400000000e-01, best bound 4.055400000000e-01, gap 0.0000%
+
+User-callback calls 663, time in user-callback 0.02 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:27:28 2021
+
+Changed value of parameter LogFile to EX_succ_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_succ_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+Optimize a model with 391 rows, 546 columns and 2737 nonzeros
+Model fingerprint: 0x0355f132
+Variable types: 508 continuous, 38 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+02]
+Presolve removed 227 rows and 367 columns
+Presolve time: 0.00s
+Presolved: 164 rows, 179 columns, 796 nonzeros
+Variable types: 141 continuous, 38 integer (38 binary)
+Presolved: 164 rows, 179 columns, 796 nonzeros
+
+
+Root relaxation: objective 1.272426e+01, 83 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   12.72426    0    2          -   12.72426      -     -    0s
+H    0     0                      -0.0000000   12.72426      -     -    0s
+     0     0   12.72426    0    4   -0.00000   12.72426      -     -    0s
+H    0     0                       0.0241000   12.72426      -     -    0s
+     0     0   12.72426    0    6    0.02410   12.72426      -     -    0s
+     0     0   12.72426    0    6    0.02410   12.72426      -     -    0s
+     0     2   12.72426    0    6    0.02410   12.72426      -     -    0s
+H   33    28                       0.3573400   12.72414  3461%  10.9    0s
+H  245    69                       0.4055400   12.72355  3037%   7.5    0s
+
+Cutting planes:
+  Gomory: 2
+  Implied bound: 7
+  Relax-and-lift: 3
+
+Explored 1168 nodes (9776 simplex iterations) in 0.13 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 4: 0.40554 0.35734 0.0241 -0 
+No other solutions better than 0.40554
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.055400000000e-01, best bound 4.055400000000e-01, gap 0.0000%
+
+User-callback calls 2492, time in user-callback 0.03 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 13:06:14 2021
+
+Changed value of parameter LogFile to EX_succ_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/Results/Itaconate_Basic/callback_solutions/NodeFiles_EX_succ_e_i7_k7_a7
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 8423 rows, 8936 columns and 56896 nonzeros
+Model fingerprint: 0xddcda6ed
+Variable types: 7799 continuous, 1137 integer (1137 binary)
+Coefficient statistics:
+  Matrix range     [2e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e-02, 1e+02]
+  RHS range        [1e-02, 1e+03]
+Presolve removed 5240 rows and 5879 columns
+Presolve time: 0.06s
+Presolved: 3183 rows, 3057 columns, 17309 nonzeros
+Variable types: 1947 continuous, 1110 integer (1110 binary)
+Presolve removed 818 rows and 816 columns
+Presolved: 2365 rows, 2242 columns, 15452 nonzeros
+
+
+Root relaxation: objective 1.397400e+01, 2127 iterations, 0.07 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   13.97400    0    3          -   13.97400      -     -    0s
+H    0     0                      -0.0000000   13.97400      -     -    0s
+     0     0   13.97400    0    3   -0.00000   13.97400      -     -    0s
+     0     2   13.97400    0    3   -0.00000   13.97400      -     -    0s
+H   78    82                       0.1042690   13.97400      -  42.9    0s
+H  132   191                       0.1042690   13.97400      -  55.1    0s
+*  406   287              70       0.1567548   13.97400  8815%  51.4    1s
+H  643   324                       0.1567548   13.97400  8815%  51.0    1s
+H 2112   743                       0.2030809   13.97400  6781%  49.5    4s
+H 2159   739                       0.6517414   13.97400  2044%  49.6    4s
+H 2215   725                       4.4026983   13.97400   217%  49.5    4s
+  2216   863   13.77221   22    7    4.40270   13.97400   217%  49.5    5s
+H 5132  1406                       4.4026984   13.97400   217%  45.6    7s
+  5322  1694   13.97400   32    2    4.40270   13.97400   217%  46.4   10s
+  7461  1748   13.97400   47    8    4.40270   13.97400   217%  42.9   15s
+ 11072  2167   13.97400   37   17    4.40270   13.97400   217%  42.2   20s
+ 13898  2610   12.48567   70    8    4.40270   13.97400   217%  42.8   25s
+ 17285  3258   13.97400   65   20    4.40270   13.97400   217%  43.9   30s
+ 20351  3882   13.97400   52   20    4.40270   13.97400   217%  42.4   36s
+H22791  3981                      11.5974863   13.97400  20.5%  41.2   39s
+ 22943  4157   13.97400   65    7   11.59749   13.97400  20.5%  41.1   41s
+ 26108  4387 infeasible   45        11.59749   13.97400  20.5%  40.5   46s
+H26299  4363                      11.7280367   13.97400  19.2%  40.4   47s
+ 26424  4471   13.97400   64    7   11.72804   13.97400  19.2%  40.4   50s
+H28727  4626                      11.7477771   13.97400  19.0%  39.6   55s
+ 31458  4667   13.97400   71   14   11.74778   13.97400  19.0%  38.8   60s
+ 34650  4881   13.97400   51   15   11.74778   13.97400  19.0%  38.2   65s
+ 37677  5017   13.97400   52    7   11.74778   13.97400  19.0%  37.4   70s
+ 40982  5187   13.97400   65   11   11.74778   13.97400  19.0%  36.8   75s
+ 43835  5303 infeasible   69        11.74778   13.97400  19.0%  36.8   80s
+ 45216  5488 infeasible   72        11.74778   13.97400  19.0%  36.8   85s
+ 48062  6131   13.68159   39    3   11.74778   13.97400  19.0%  36.8   91s
+ 50576  6408   12.36640   80    2   11.74778   13.97400  19.0%  36.7   95s
+ 54343  6865 infeasible   61        11.74778   13.97400  19.0%  36.7  100s
+ 57467  7283 infeasible   59        11.74778   13.97400  19.0%  36.9  106s
+ 60016  7872   12.34147   76   31   11.74778   13.97400  19.0%  37.1  111s
+ 61688  8181   12.36640   65    2   11.74778   13.97400  19.0%  37.2  115s
+ 63481  8369   13.97400   45   10   11.74778   13.97400  19.0%  37.2  120s
+ 66784  8525   13.97400   55    1   11.74778   13.97400  19.0%  37.1  126s
+ 68274  8675 infeasible   46        11.74778   13.97400  19.0%  37.0  130s
+ 71768  8664   12.36640   54    2   11.74778   13.97400  19.0%  37.0  136s
+ 72931  9027     cutoff   58        11.74778   13.97400  19.0%  37.0  140s
+ 76451  9572   13.97400   58   15   11.74778   13.97400  19.0%  36.7  146s
+ 78561  9899   13.97400   68    5   11.74778   13.97400  19.0%  36.8  151s
+ 80476 10054   13.97400   46    1   11.74778   13.97400  19.0%  36.7  155s
+ 83326 10596   13.97400   63   19   11.74778   13.97400  19.0%  36.5  161s
+ 85319 10981   12.36640   59    2   11.74778   13.97400  19.0%  36.3  166s
+ 88156 11183   12.90589   50   29   11.74778   13.97400  19.0%  36.1  171s
+ 90499 11339   13.33237   60    7   11.74778   13.97400  19.0%  36.0  175s
+ 93834 11752   13.00471   87   35   11.74778   13.97400  19.0%  36.1  180s
+ 96348 12182   13.97400   45   20   11.74778   13.97400  19.0%  36.2  185s
+ 97968 12488   13.97400   63    1   11.74778   13.97400  19.0%  36.2  190s
+ 100984 13207   13.97400   57   15   11.74778   13.97400  19.0%  36.1  196s
+ 103126 13430   13.97400   49   10   11.74778   13.97400  19.0%  36.3  200s
+ 105883 13620   13.97400   71   27   11.74778   13.97400  19.0%  36.4  205s
+ 108877 13984   13.97400   38    9   11.74778   13.97400  19.0%  36.5  211s
+ 110865 14151 infeasible   62        11.74778   13.97400  19.0%  36.6  215s
+ 114233 14432   13.97400   43   18   11.74778   13.97400  19.0%  36.7  220s
+ 115959 14958   13.97400   24    9   11.74778   13.97400  19.0%  36.7  226s
+ 118826 15125 infeasible   49        11.74778   13.97400  19.0%  36.8  231s
+ 121149 15452 infeasible   53        11.74778   13.97400  19.0%  36.8  236s
+ 123259 16048 infeasible   48        11.74778   13.97400  19.0%  36.8  240s
+ 126792 16512   13.97400   61   19   11.74778   13.97400  19.0%  36.9  247s
+ 128601 16787   13.97400   63    6   11.74778   13.97400  19.0%  36.9  251s
+ 131081 16968   13.97400   66    2   11.74778   13.97400  19.0%  37.1  256s
+ 133275 17014 infeasible   43        11.74778   13.97400  19.0%  37.1  260s
+ 135611 17183   12.36640   65    2   11.74778   13.97400  19.0%  37.2  265s
+ 137784 17386   13.97400   44    9   11.74778   13.97400  19.0%  37.3  270s
+ 140121 17348 infeasible   52        11.74778   13.97400  19.0%  37.3  275s
+ 142827 17687   13.97400   54   12   11.74778   13.97400  19.0%  37.4  280s
+ 146546 17905     cutoff   74        11.74778   13.97400  19.0%  37.3  285s
+ 148935 18099   13.97400   63    3   11.74778   13.97400  19.0%  37.4  290s
+ 151299 18339   13.97400   39   17   11.74778   13.97400  19.0%  37.4  296s
+ 153535 18405   13.97400   56   14   11.74778   13.97400  19.0%  37.5  300s
+
+Cutting planes:
+  Flow cover: 10
+  Inf proof: 44
+  Relax-and-lift: 1
+
+Explored 154477 nodes (5793970 simplex iterations) in 300.05 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 10: 11.7478 11.728 11.5975 ... -0
+
+Time limit reached
+Best objective 1.174777709000e+01, best bound 1.397400327500e+01, gap 18.9502%
+
+User-callback calls 434113, time in user-callback 1.14 sec

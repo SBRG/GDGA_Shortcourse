@@ -1,0 +1,8 @@
+['objective', 'time', 'reactions']
+[0.8250594704545546, 3.4787025451660156, 'HEX7_deletion|EDD_deletion|ALCD2x_deletion|PGI_deletion|LDH_D_deletion|XYLI1__hr_addin|MI1PS__hr_addin']
+[0.8479049767241889, 5.850873947143555, 'HEX7_deletion|G3PD2_deletion|EDD_deletion|ALCD2x_deletion|FADRx_deletion|PGI_deletion|LDH_D_deletion']
+[6.2579810187494145, 5.970983505249023, 'HEX7_deletion|PFL_deletion|PPM_deletion|EDD_deletion|ALCD2x_deletion|PGI_deletion|LDH_D_deletion']
+[6.438837712500565, 10.46561050415039, 'HEX7_deletion|PFL_deletion|EDD_deletion|ALCD2x_deletion|PGI_deletion|GHMT2r_deletion|LDH_D_deletion']
+[6.747465302777784, 17.08329200744629, 'HEX7_deletion|PFL_deletion|EDD_deletion|ALCD2x_deletion|PGI_deletion|PTAr_deletion|LDH_D_deletion']
+[8.817913274999745, 35.87412071228027, 'HEX7_deletion|PFL_deletion|EDD_deletion|ALCD2x_deletion|PGI_deletion|MTHFD_deletion|LDH_D_deletion']
+[8.81791327631389, 186.1191864013672, 'HEX7_deletion|PFL_deletion|ALCD2x_deletion|EDA_deletion|PGI_deletion|MTHFD_deletion|LDH_D_deletion']

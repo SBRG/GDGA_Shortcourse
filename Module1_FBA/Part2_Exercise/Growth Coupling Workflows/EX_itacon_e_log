@@ -1,0 +1,690 @@
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:08:15 2021
+
+Changed value of parameter LogFile to EX_itacon_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_itacon_e_i5_k5_a5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 7510 rows, 7002 columns and 45612 nonzeros
+Model fingerprint: 0x24a9987e
+Variable types: 5863 continuous, 1139 integer (1139 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+03]
+Presolve removed 2040 rows and 1036 columns
+Presolve time: 0.04s
+Presolved: 5470 rows, 5966 columns, 37065 nonzeros
+Variable types: 4824 continuous, 1142 integer (1139 binary)
+Presolve removed 12 rows and 0 columns
+Presolved: 5458 rows, 5966 columns, 36918 nonzeros
+
+
+Root relaxation: objective 1.139060e+01, 1395 iterations, 0.04 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   11.39060    0   16          -   11.39060      -     -    0s
+H    0     0                      -0.0000000   11.39060      -     -    0s
+     0     0   11.39060    0   23   -0.00000   11.39060      -     -    0s
+     0     0   11.39060    0   23   -0.00000   11.39060      -     -    0s
+     0     0   11.39060    0   19   -0.00000   11.39060      -     -    0s
+     0     0   11.39060    0   19   -0.00000   11.39060      -     -    0s
+     0     0   11.39060    0   19   -0.00000   11.39060      -     -    1s
+     0     0   11.39060    0   19   -0.00000   11.39060      -     -    1s
+     0     0   11.39060    0   19   -0.00000   11.39060      -     -    1s
+     0     0   11.39060    0   18   -0.00000   11.39060      -     -    1s
+     0     2   11.39060    0   18   -0.00000   11.39060      -     -    1s
+   449   247     cutoff   49        -0.00000   11.39060      -   294    5s
+  1671   590    9.30009   21   15   -0.00000   11.17474      -   234   10s
+  3117   960   11.04267   16   18   -0.00000   11.04267      -   213   15s
+  4342  1168    9.99850   28   21   -0.00000   10.47720      -   198   20s
+  5905  1198    8.48015   35   14   -0.00000   10.36925      -   195   25s
+H 6683  1387                       0.0000000   10.36925      -   193   28s
+  7157  1653    8.46226   40    2    0.00000   10.36925      -   192   30s
+  8406  1938     cutoff   38         0.00000   10.36925      -   194   35s
+  9705  2417    8.48015   27    6    0.00000   10.35399      -   194   40s
+ 11896  2979    8.78566   38    7    0.00000   10.26368      -   188   45s
+H12678  3066                       0.0000000   10.24307      -   189   48s
+ 13075  3347     cutoff   41         0.00000   10.24307      -   188   50s
+ 14867  3743    8.42616   31    4    0.00000   10.20323      -   187   56s
+ 16556  4249 infeasible   35         0.00000   10.10063      -   185   61s
+ 17846  4626    8.48015   45    4    0.00000   10.06348      -   188   66s
+ 19397  5072    9.64280   30   18    0.00000   10.05782      -   184   70s
+ 21945  5836    9.16471   37   16    0.00000    9.79854      -   178   75s
+ 24113  6428     cutoff   41         0.00000    9.79533      -   178   80s
+ 26456  6989    9.16471   39    5    0.00000    9.79533      -   176   86s
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:09:53 2021
+
+Changed value of parameter LogFile to EX_itacon_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_itacon_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+Optimize a model with 391 rows, 546 columns and 2738 nonzeros
+Model fingerprint: 0x2477e866
+Variable types: 508 continuous, 38 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+02]
+Presolve removed 39 rows and 52 columns
+Presolve time: 0.00s
+Presolved: 352 rows, 494 columns, 2338 nonzeros
+Variable types: 455 continuous, 39 integer (38 binary)
+Presolve removed 1 rows and 0 columns
+Presolved: 351 rows, 494 columns, 2322 nonzeros
+
+
+Root relaxation: objective 8.480150e+00, 124 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.48015    0    3          -    8.48015      -     -    0s
+H    0     0                      -0.0000000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     2    8.48015    0    6   -0.00000    8.48015      -     -    0s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 4
+  Inf proof: 1
+
+Explored 7384 nodes (276865 simplex iterations) in 1.13 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 1: -0 
+No other solutions better than -0
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%
+
+User-callback calls 15161, time in user-callback 0.02 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:11:47 2021
+
+Changed value of parameter LogFile to EX_itacon_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_itacon_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+Optimize a model with 391 rows, 546 columns and 2738 nonzeros
+Model fingerprint: 0x11aabab1
+Variable types: 508 continuous, 38 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+02]
+Presolve removed 39 rows and 52 columns
+Presolve time: 0.00s
+Presolved: 352 rows, 494 columns, 2338 nonzeros
+Variable types: 455 continuous, 39 integer (38 binary)
+Presolve removed 1 rows and 0 columns
+Presolved: 351 rows, 494 columns, 2322 nonzeros
+
+
+Root relaxation: objective 8.480150e+00, 124 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.48015    0    3          -    8.48015      -     -    0s
+H    0     0                      -0.0000000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     2    8.48015    0    6   -0.00000    8.48015      -     -    0s
+
+Cutting planes:
+  MIR: 3
+  Flow cover: 1
+
+Explored 9193 nodes (318063 simplex iterations) in 1.15 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 1: -0 
+No other solutions better than -0
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%
+
+User-callback calls 18828, time in user-callback 0.02 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:13:07 2021
+
+Changed value of parameter LogFile to EX_itacon_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_itacon_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+Optimize a model with 391 rows, 546 columns and 2738 nonzeros
+Model fingerprint: 0x76262dc3
+Variable types: 508 continuous, 38 integer (38 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+02]
+Presolve removed 39 rows and 52 columns
+Presolve time: 0.00s
+Presolved: 352 rows, 494 columns, 2338 nonzeros
+Variable types: 455 continuous, 39 integer (38 binary)
+Presolve removed 1 rows and 0 columns
+Presolved: 351 rows, 494 columns, 2322 nonzeros
+
+
+Root relaxation: objective 8.480150e+00, 124 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.48015    0    3          -    8.48015      -     -    0s
+H    0     0                      -0.0000000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     0    8.48015    0    6   -0.00000    8.48015      -     -    0s
+     0     2    8.48015    0    6   -0.00000    8.48015      -     -    0s
+
+Cutting planes:
+  Gomory: 2
+  MIR: 2
+  Flow cover: 2
+  Inf proof: 1
+  Relax-and-lift: 2
+
+Explored 6109 nodes (180040 simplex iterations) in 0.85 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 1: -0 
+No other solutions better than -0
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%
+
+User-callback calls 12603, time in user-callback 0.01 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:42:20 2021
+
+Changed value of parameter LogFile to EX_itacon_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_itacon_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 2192 rows, 3491 columns and 18313 nonzeros
+Model fingerprint: 0xf88652eb
+Variable types: 3336 continuous, 155 integer (155 binary)
+Coefficient statistics:
+  Matrix range     [2e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-02, 1e+02]
+  RHS range        [2e-02, 1e+02]
+Presolve removed 1536 rows and 2783 columns
+Presolve time: 0.02s
+Presolved: 656 rows, 708 columns, 3504 nonzeros
+Variable types: 553 continuous, 155 integer (155 binary)
+Presolve removed 14 rows and 7 columns
+Presolved: 642 rows, 701 columns, 3469 nonzeros
+
+
+Root relaxation: objective 9.359739e+00, 317 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    9.35974    0    2          -    9.35974      -     -    0s
+H    0     0                      -0.0000000    9.35974      -     -    0s
+     0     0    9.35974    0    2   -0.00000    9.35974      -     -    0s
+     0     2    9.35974    0    2   -0.00000    9.35974      -     -    0s
+*  994   563              43       0.0000000    9.35974      -  28.4    0s
+H17585  5237                       0.0000000    9.35974      -  21.4    4s
+ 18562  6006    0.43278   72    5    0.00000    9.35974      -  21.1    5s
+H21514  6939                       0.0000001    9.35974      -  20.5    5s
+H21778  6939                       0.0000001    9.35974      -  20.5    5s
+H34968 10591                       2.5880468    9.35974   262%  19.1    8s
+H40235 10711                       2.7196848    9.35974   244%  18.7    9s
+H40241 10101                       3.7366787    9.35974   150%  18.7    9s
+ 41026 10529    9.35967   68   13    3.73668    9.35974   150%  18.7   10s
+H48171 10680                       3.8680699    9.35974   142%  18.6   11s
+H50125 10892                       3.8717773    9.35974   142%  18.5   11s
+H52740 11641                       4.5059095    9.35974   108%  18.4   12s
+H52967 11264                       5.3113056    9.35974  76.2%  18.4   12s
+H62447 14190                       5.3302212    9.35974  75.6%  18.0   14s
+H62797 14079                       5.4721330    9.35974  71.0%  18.0   14s
+H62801 14005                       5.6877226    9.35974  64.6%  18.0   14s
+H63005 14091                       6.5409905    9.35974  43.1%  18.0   14s
+ 64930 14809 infeasible   73         6.54099    9.35974  43.1%  17.9   15s
+H79824 18353                       7.7008257    9.35974  21.5%  18.0   18s
+H79911 17965                       8.4625823    9.35974  10.6%  18.0   18s
+H84108 17929                       8.4768764    9.35974  10.4%  18.1   19s
+ 85630 18141 infeasible   77         8.47688    9.35974  10.4%  18.1   20s
+H100814 16026                       8.5174824    9.35974  9.89%  18.1   23s
+ 110835 14623    9.32469   74    6    8.51748    9.35974  9.89%  18.1   25s
+ 138065 12045    9.35199   72    8    8.51748    9.35974  9.89%  18.0   30s
+H144651 13099                       8.5208356    9.35974  9.85%  17.9   31s
+ 166562 17139 infeasible   78         8.52084    9.35974  9.85%  17.6   35s
+ 192484 20935    9.35966   84    8    8.52084    9.35974  9.85%  17.2   40s
+ 219791 25440 infeasible   73         8.52084    9.35974  9.85%  17.1   45s
+ 246202 29594    9.35967   80    5    8.52084    9.35974  9.85%  16.9   50s
+ 272035 33088    9.35974   78    2    8.52084    9.35974  9.85%  16.8   55s
+ 296935 35543    9.35967   78    7    8.52084    9.35974  9.85%  16.8   60s
+ 324984 38157 infeasible   69         8.52084    9.35974  9.85%  16.5   65s
+ 348672 41038    8.98354   59    6    8.52084    9.35974  9.85%  16.6   70s
+ 373911 45124 infeasible   78         8.52084    9.35974  9.85%  16.7   75s
+ 398854 48478    9.35177   76    6    8.52084    9.35974  9.85%  16.7   80s
+ 426777 51856    9.35973   65    8    8.52084    9.35974  9.85%  16.6   85s
+H447359 54013                       8.5208356    9.35974  9.85%  16.5   88s
+ 453794 54846    9.35902   73    6    8.52084    9.35974  9.85%  16.5   90s
+H484893 58308                       8.5208357    9.35974  9.85%  16.2   95s
+ 508038 59659    9.30604   73    4    8.52084    9.35974  9.85%  16.1  100s
+ 533077 62661    9.35968   77    8    8.52084    9.35974  9.85%  16.1  105s
+ 557925 64602    9.35974   70    2    8.52084    9.35974  9.85%  16.2  110s
+ 580490 67110     cutoff   73         8.52084    9.35974  9.85%  16.2  115s
+ 601939 70487    9.29967   71   21    8.52084    9.35974  9.85%  16.3  120s
+ 621976 72758    9.35971   72   25    8.52084    9.35974  9.85%  16.5  125s
+ 647042 77487    9.35424   67    2    8.52084    9.35974  9.85%  16.5  130s
+ 675787 82239    9.35925   73    1    8.52084    9.35974  9.85%  16.3  135s
+ 703234 84028    9.31891   71    4    8.52084    9.35974  9.85%  16.3  140s
+ 734444 86890    9.31859   76    5    8.52084    9.35974  9.85%  16.2  145s
+ 758586 88924     cutoff   77         8.52084    9.35974  9.85%  16.3  150s
+ 784176 91920     cutoff   70         8.52084    9.35974  9.85%  16.3  155s
+ 808280 94461     cutoff   81         8.52084    9.35974  9.85%  16.3  160s
+ 835138 96662     cutoff   80         8.52084    9.35974  9.85%  16.2  165s
+ 855216 98199    9.35962   74    4    8.52084    9.35974  9.85%  16.2  170s
+ 883621 100426    9.35967   80    7    8.52084    9.35974  9.85%  16.1  175s
+H898104 101040                       8.5208357    9.35974  9.85%  16.1  179s
+ 899337 101297    9.35962   81    4    8.52084    9.35974  9.85%  16.1  180s
+ 925383 102647 infeasible   74         8.52084    9.35974  9.85%  16.1  185s
+ 948495 103900 infeasible   82         8.52084    9.35974  9.85%  16.1  190s
+ 971437 105341    9.35974   73    3    8.52084    9.35974  9.85%  16.0  195s
+ 997136 106734    9.31813   87    4    8.52084    9.35974  9.85%  16.0  200s
+ 1023435 108266    9.35424   84    2    8.52084    9.35974  9.85%  16.0  205s
+ 1047985 110337    9.35974   86    2    8.52084    9.35974  9.85%  16.0  210s
+ 1069248 112998    9.35974   73    3    8.52084    9.35974  9.85%  16.0  215s
+ 1094594 115339    9.35970   74   11    8.52084    9.35974  9.85%  15.9  220s
+ 1119930 117950    9.35974   72    3    8.52084    9.35974  9.85%  15.9  225s
+ 1143112 120650    9.31888   80   11    8.52084    9.35974  9.85%  15.9  230s
+ 1167179 123710    9.32374   81    8    8.52084    9.35974  9.85%  15.9  235s
+ 1194681 125710    9.30721   78    9    8.52084    9.35974  9.85%  15.9  240s
+ 1223387 128321    9.35970   75   13    8.52084    9.35974  9.85%  15.8  245s
+ 1252428 131166    9.35962   77    7    8.52084    9.35974  9.85%  15.7  250s
+ 1279237 132896    9.35973   78    9    8.52084    9.35974  9.85%  15.7  255s
+ 1306103 134965    9.35970   71    5    8.52084    9.35974  9.85%  15.7  260s
+ 1331028 137701    9.35974   77    2    8.52084    9.35974  9.85%  15.6  265s
+ 1355690 140054 infeasible   82         8.52084    9.35974  9.85%  15.6  270s
+ 1379784 143668    9.31862   71   10    8.52084    9.35974  9.85%  15.6  275s
+ 1405454 147858 infeasible   78         8.52084    9.35974  9.85%  15.6  280s
+ 1428354 151078    9.31742   79    4    8.52084    9.35974  9.85%  15.6  285s
+ 1451810 154237 infeasible   72         8.52084    9.35974  9.85%  15.7  290s
+ 1476032 156726    9.35965   71    1    8.52084    9.35974  9.85%  15.7  295s
+ 1498818 158718    9.35973   73   13    8.52084    9.35974  9.85%  15.7  300s
+
+Cutting planes:
+  Inf proof: 6
+
+Explored 1499154 nodes (23603710 simplex iterations) in 300.01 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 10: 8.52084 8.52084 8.52084 ... 5.68772
+
+Time limit reached
+Best objective 8.520835655626e+00, best bound 9.359739055263e+00, gap 9.8453%
+
+User-callback calls 3056238, time in user-callback 2.92 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:53:48 2021
+
+Changed value of parameter LogFile to EX_itacon_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_itacon_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 2192 rows, 3491 columns and 18313 nonzeros
+Model fingerprint: 0xf13f3bb5
+Variable types: 3336 continuous, 155 integer (155 binary)
+Coefficient statistics:
+  Matrix range     [2e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e-02, 1e+02]
+  RHS range        [1e-02, 1e+02]
+Presolve removed 1542 rows and 2792 columns
+Presolve time: 0.02s
+Presolved: 650 rows, 699 columns, 3468 nonzeros
+Variable types: 544 continuous, 155 integer (155 binary)
+Presolve removed 14 rows and 7 columns
+Presolved: 636 rows, 692 columns, 3433 nonzeros
+
+
+Root relaxation: objective 1.054252e+01, 361 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   10.54252    0    2          -   10.54252      -     -    0s
+H    0     0                      -0.0000000   10.54252      -     -    0s
+     0     0   10.54252    0    2   -0.00000   10.54252      -     -    0s
+     0     2   10.54252    0    2   -0.00000   10.54252      -     -    0s
+ 16412  3689     cutoff   53        -0.00000   10.54252      -  31.2    5s
+*25960  6390              66       0.0000000   10.54252      -  28.7    6s
+H34443  8877                       0.0000000   10.54252      -  27.5    8s
+H34914  8877                       0.0000000   10.54252      -  27.4    8s
+ 39485 10197     cutoff   55         0.00000   10.54252      -  27.6   10s
+H39486 10197                       0.0000000   10.54252      -  27.6   10s
+H44771 11335                       0.0000000   10.54252      -  27.9   11s
+H50211 12274                       0.0000000   10.54252      -  28.3   12s
+ 60398 14404     cutoff   70         0.00000   10.54252      -  27.9   15s
+H81117 18608                       0.0000000   10.54252      -  27.5   19s
+ 82039 19013   10.54240   58   27    0.00000   10.54252      -  27.4   20s
+ 104235 24070   10.54252   60    4    0.00000   10.54252      -  26.8   25s
+H112283 25571                       0.0000000   10.54252      -  26.7   26s
+ 127769 28291    0.96003   62    3    0.00000   10.54252      -  26.4   30s
+ 151542 32629     cutoff   59         0.00000   10.54252      -  26.0   35s
+ 171402 36489   10.54252   46   11    0.00000   10.54252      -  26.0   40s
+H179599 38059                       0.0000001   10.54252      -  25.9   41s
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 11:54:52 2021
+
+Changed value of parameter LogFile to EX_itacon_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/results_growth_coupling/callback_solutions/NodeFiles_EX_itacon_e_i5_k5
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 2192 rows, 3491 columns and 18313 nonzeros
+Model fingerprint: 0xf1c97b91
+Variable types: 3336 continuous, 155 integer (155 binary)
+Coefficient statistics:
+  Matrix range     [2e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e-02, 1e+02]
+  RHS range        [1e-02, 1e+02]
+Presolve removed 1542 rows and 2792 columns
+Presolve time: 0.02s
+Presolved: 650 rows, 699 columns, 3468 nonzeros
+Variable types: 544 continuous, 155 integer (155 binary)
+Presolve removed 14 rows and 7 columns
+Presolved: 636 rows, 692 columns, 3433 nonzeros
+
+
+Root relaxation: objective 1.054252e+01, 354 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   10.54252    0    6          -   10.54252      -     -    0s
+H    0     0                      -0.0000000   10.54252      -     -    0s
+     0     0   10.54252    0    6   -0.00000   10.54252      -     -    0s
+     0     2   10.54252    0    6   -0.00000   10.54252      -     -    0s
+H 3295   703                       0.0000000   10.54252      -  38.2    1s
+H 7889  1342                       0.0000000   10.54252      -  40.4    3s
+H12403  2733                       0.0000000   10.54252      -  33.6    4s
+ 14591  3850   10.47472   43    7    0.00000   10.54252      -  32.4    5s
+ 34327  8421     cutoff   47         0.00000   10.54252      -  29.4   10s
+ 57089 13551   10.54252   42   22    0.00000   10.54252      -  28.2   15s
+*71820 16414              60       0.0000000   10.54252      -  27.3   18s
+ 80941 18712   10.54252   38   22    0.00000   10.54252      -  27.1   20s
+ 102938 23821   10.54250   44    9    0.00000   10.54252      -  26.8   25s
+ 123731 27536    1.82351   57   17    0.00000   10.54252      -  26.7   30s
+ 140712 30642   10.54252   58   10    0.00000   10.54252      -  26.8   35s
+ 165559 32719   10.50624   61   16    0.00000   10.54252      -  25.6   40s
+ 190683 32198     cutoff   61         0.00000   10.54252      -  24.8   45s
+ 216955 32192    2.22305   78    5    0.00000   10.54252      -  23.9   50s
+ 242753 33326     cutoff   73         0.00000   10.54252      -  23.2   55s
+ 269255 38527   10.54252   53   10    0.00000   10.54252      -  22.7   60s
+ 292193 42957   10.50346   75    4    0.00000   10.54252      -  22.5   65s
+ 319504 45652    1.30830   78    2    0.00000   10.54252      -  22.1   70s
+ 346515 46159   10.54252   70    2    0.00000   10.54252      -  21.8   75s
+ 370721 47208     cutoff   69         0.00000   10.54252      -  21.6   80s
+ 396723 50631    1.39545   72    4    0.00000   10.54250      -  21.4   85s
+ 418738 52910   10.54249   62    8    0.00000   10.54249      -  21.3   90s
+ 445521 57670   10.54216   71    5    0.00000   10.54248      -  21.1   95s
+ 471706 60973   10.54236   76    4    0.00000   10.54246      -  21.0  100s
+ 496242 56475    1.30830   75    2    0.00000   10.54230      -  20.7  105s
+ 522369 54285   10.54220   65    3    0.00000   10.54220      -  20.4  110s
+ 551190 51092    4.70667   69   23    0.00000   10.54188      -  20.2  115s
+ 574736 56246 infeasible   71         0.00000   10.53996      -  20.2  120s
+ 597069 54116    1.30830   71    2    0.00000   10.53964      -  20.1  125s
+ 624087 48290    1.35085   77    2    0.00000   10.53852      -  20.0  130s
+ 646854 52303     cutoff   48         0.00000   10.51884      -  20.0  135s
+ 668792 59012   10.51879   48   19    0.00000   10.51884      -  20.1  140s
+ 688004 63772   10.51848   64   26    0.00000   10.51884      -  20.2  145s
+ 709626 66061   10.51884   48   10    0.00000   10.51884      -  20.4  150s
+ 728890 67975   10.51884   67    2    0.00000   10.51884      -  20.5  155s
+ 750971 70016   10.48259   80    7    0.00000   10.51884      -  20.7  160s
+ 768039 69369   10.51881   62    2    0.00000   10.51881      -  20.8  165s
+ 793052 66800     cutoff   77         0.00000   10.50652      -  20.8  170s
+ 814032 73611   10.50652   74    4    0.00000   10.50652      -  20.9  175s
+ 833665 77189     cutoff   61         0.00000   10.50652      -  21.0  180s
+ 853061 79059     cutoff   58         0.00000   10.50652      -  21.1  185s
+ 877744 84321   10.50332   65    7    0.00000   10.50642      -  21.1  190s
+ 903324 87779     cutoff   71         0.00000   10.50642      -  21.0  195s
+ 928878 88515     cutoff   68         0.00000   10.50633      -  21.0  200s
+ 953651 88253   10.50582   74    4    0.00000   10.50620      -  21.0  205s
+ 970500 86077     cutoff   56         0.00000   10.50422      -  21.0  210s
+ 998983 87946   10.50323   64    2    0.00000   10.50346      -  21.0  215s
+ 1022051 89942     cutoff   62         0.00000   10.50346      -  21.0  220s
+ 1045676 90418   10.50341   68    2    0.00000   10.50341      -  21.0  225s
+ 1071546 85492   10.50091   63    8    0.00000   10.50278      -  20.9  230s
+ 1096815 90101   10.50084   76    8    0.00000   10.50249      -  20.9  235s
+ 1121940 93334     cutoff   75         0.00000   10.50249      -  20.8  240s
+ 1146189 94226   10.50244   51   12    0.00000   10.50244      -  20.8  245s
+ 1168875 93629   10.50075   66    2    0.00000   10.50075      -  20.8  250s
+ 1194856 94821    1.35085   72    2    0.00000   10.50060      -  20.7  255s
+ 1216741 91201    9.28699   68   10    0.00000   10.50027      -  20.7  260s
+ 1243709 96056   10.49961   63    2    0.00000   10.49961      -  20.6  265s
+ 1270381 100125 infeasible   75         0.00000   10.49961      -  20.6  270s
+ 1296116 103088   10.49756   70    6    0.00000   10.49961      -  20.5  275s
+ 1320042 103587     cutoff   77         0.00000   10.49961      -  20.5  280s
+ 1348481 99413     cutoff   66         0.00000   10.49847      -  20.5  285s
+ 1372410 98090     cutoff   58         0.00000   10.49775      -  20.4  290s
+ 1400080 92261    3.60500   66    6    0.00000   10.49423      -  20.4  295s
+ 1422032 96540     cutoff   64         0.00000   10.49085      -  20.4  300s
+
+Cutting planes:
+  Flow cover: 1
+
+Explored 1422223 nodes (29021097 simplex iterations) in 300.01 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 5: 8.57809e-09 2.26827e-09 2.08567e-09 ... -0
+
+Time limit reached
+Warning: max constraint violation (4.2462e-09) exceeds tolerance
+Warning: max bound violation (1.2335e-09) exceeds tolerance
+Best objective 8.578086893585e-09, best bound 1.049085090441e+01, gap -
+
+User-callback calls 2880851, time in user-callback 2.21 sec
+
+Gurobi 9.1.0 (win64) logging started Wed Aug 18 12:19:12 2021
+
+Changed value of parameter LogFile to EX_itacon_e_log
+   Prev:   Default: 
+Changed value of parameter Threads to 7
+   Prev: 0  Min: 0  Max: 1024  Default: 0
+Changed value of parameter NodefileStart to 1.0
+   Prev: inf  Min: 0.0  Max: inf  Default: inf
+Changed value of parameter NodefileDir to C:\Users\Tobi\Bull\NAS Drive\Postdoc CFB\Projekte\09 Short Courses UCSD\Growth coupling workflows/Results/Itaconate_Basic/callback_solutions/NodeFiles_EX_itacon_e_i7_k7_a7
+   Prev: .  Default: .
+Gurobi Optimizer version 9.1.0 build v9.1.0rc0 (win64)
+Thread count: 12 physical cores, 24 logical processors, using up to 7 threads
+
+Warning: excessive time spent in model updates.
+Consider calling update less frequently.
+
+Optimize a model with 5905 rows, 6876 columns and 43538 nonzeros
+Model fingerprint: 0xda9865de
+Variable types: 6087 continuous, 789 integer (789 binary)
+Coefficient statistics:
+  Matrix range     [2e-03, 1e+03]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e-02, 1e+02]
+  RHS range        [1e-02, 1e+03]
+Presolve removed 3570 rows and 4614 columns
+Presolve time: 0.04s
+Presolved: 2335 rows, 2262 columns, 13000 nonzeros
+Variable types: 1483 continuous, 779 integer (779 binary)
+Presolve removed 552 rows and 550 columns
+Presolved: 1783 rows, 1712 columns, 11800 nonzeros
+
+Warning: Markowitz tolerance tightened to 0.03125
+
+Root relaxation: objective 1.117920e+01, 1672 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   11.17920    0   12          -   11.17920      -     -    0s
+H    0     0                      -0.0000000   11.17920      -     -    0s
+     0     0   11.17920    0   13   -0.00000   11.17920      -     -    0s
+     0     0   11.17920    0    9   -0.00000   11.17920      -     -    0s
+     0     0   11.17920    0   10   -0.00000   11.17920      -     -    0s
+     0     0   11.17920    0    7   -0.00000   11.17920      -     -    0s
+     0     0   11.17920    0    7   -0.00000   11.17920      -     -    0s
+     0     2   11.17920    0    7   -0.00000   11.17920      -     -    0s
+  4437  1098   10.57452   72    7   -0.00000   11.17920      -  35.9    5s
+  6978  1825   10.97902   58   24   -0.00000   11.17920      -  35.0   11s
+ 10742  3964   11.17920   58   17   -0.00000   11.17920      -  33.3   15s
+ 14026  5940   10.77898   65   13   -0.00000   11.17920      -  31.1   20s
+H16967  6925                       0.0000000   11.17920      -  30.1   23s
+ 18223  8251   11.17920   66   11    0.00000   11.17920      -  29.7   25s
+ 21426  9886   11.17920   69    5    0.00000   11.17920      -  29.1   31s
+ 24089 10949   10.72248   94   15    0.00000   11.17920      -  29.0   35s
+ 27899 12463   11.17920   52   24    0.00000   11.17920      -  29.4   40s
+H28535 12463                       0.0000000   11.17920      -  29.4   40s
+ 31288 13747   11.15353   76   16    0.00000   11.17920      -  29.6   45s
+H31448 13747                       0.0000000   11.17920      -  29.7   45s
+H32405 14106                       0.0000001   11.17920      -  29.7   47s
+ 34414 14614   11.13562   75   10    0.00000   11.17920      -  30.1   50s
+ 38036 16583   10.77668   49   13    0.00000   11.17920      -  30.3   56s
+ 40556 17711   11.17920   58   11    0.00000   11.17920      -  30.3   60s
+ 44907 19514    0.87220   84    3    0.00000   11.17920      -  30.4   65s
+ 48746 20846     cutoff   72         0.00000   11.17920      -  31.0   71s
+ 51007 21762   10.99582   75   14    0.00000   11.17920      -  30.9   75s
+ 55589 23081   10.71538   51   18    0.00000   11.17920      -  31.0   80s
+ 58695 24253   10.71538   48   18    0.00000   11.17920      -  31.0   85s
+ 62748 26631   11.17920   64   10    0.00000   11.17920      -  30.8   92s
+ 65262 27801   10.66679   73   21    0.00000   11.17920      -  30.5   95s
+ 69643 30125   10.98759   67   24    0.00000   11.17920      -  30.2  101s
+ 73342 32298     cutoff   68         0.00000   11.17920      -  29.9  106s
+ 75884 33261   11.17920   80    5    0.00000   11.17920      -  29.8  110s
+ 80872 34625     cutoff   88         0.00000   11.17920      -  29.9  116s
+ 84055 35382    2.16300   78    5    0.00000   11.17920      -  30.3  121s
+ 87869 36206   11.02270   54   18    0.00000   11.17920      -  30.6  125s
+ 92178 37468   11.17920   49   10    0.00000   11.17920      -  30.6  131s
+ 94239 38233     cutoff   81         0.00000   11.17920      -  30.6  135s
+ 98399 39431   10.96040   90   21    0.00000   11.17920      -  31.1  141s
+ 101030 40185   11.17920   60   27    0.00000   11.17920      -  31.2  145s
+ 104184 41515   11.17920   53    3    0.00000   11.17920      -  31.3  150s
+ 108230 43157     cutoff   79         0.00000   11.17920      -  31.3  156s
+ 111384 44296     cutoff   78         0.00000   11.17920      -  31.5  161s
+ 114369 46073   11.17920   42   26    0.00000   11.17920      -  31.4  166s
+ 116606 46787   11.17920   45   15    0.00000   11.17920      -  31.3  170s
+ 120116 48017   10.52625   52   28    0.00000   11.17920      -  31.3  176s
+ 121855 48757   11.17920   54    6    0.00000   11.17920      -  31.2  180s
+ 124498 50317   11.17920   64   33    0.00000   11.17920      -  31.2  185s
+ 128640 52060   10.66937   32   16    0.00000   11.17920      -  31.2  190s
+ 131513 53671   11.17920   65   16    0.00000   11.17920      -  31.1  195s
+ 135991 55576     cutoff   93         0.00000   11.17920      -  30.9  200s
+ 139092 56820   11.14080   75   12    0.00000   11.17920      -  30.8  205s
+ 142713 57703     cutoff   67         0.00000   11.17920      -  30.8  210s
+ 146251 59196   11.17920   73   20    0.00000   11.17920      -  30.9  216s
+ 149310 60616     cutoff   76         0.00000   11.17920      -  30.8  222s
+ 151110 61444   11.15639   69   36    0.00000   11.17920      -  30.7  225s
+ 153945 62763   11.17920   65   17    0.00000   11.17920      -  30.6  230s
+ 157857 64523   10.59593   69   14    0.00000   11.17920      -  30.6  235s
+ 162514 66288    9.25721   70   25    0.00000   11.17920      -  30.5  241s
+ 165454 67151     cutoff   60         0.00000   11.17920      -  30.5  245s
+ 169893 68003     cutoff   67         0.00000   11.17920      -  30.6  250s
+ 174050 69345   10.73492   66   19    0.00000   11.17920      -  30.6  255s
+ 177496 70265     cutoff   49         0.00000   11.17920      -  30.6  260s
+ 181007 71103    6.95140   71    2    0.00000   11.17920      -  30.7  265s
+ 182265 73059   10.96934   62   24    0.00000   11.17920      -  30.7  274s
+ 187665 73194    1.62266   90    5    0.00000   11.17920      -  30.7  277s
+ 189184 74025   10.59984   58   22    0.00000   11.17920      -  30.7  280s
+ 193164 75581   10.74764   61   18    0.00000   11.17920      -  30.7  285s
+ 196174 77286   11.17920   64    2    0.00000   11.17920      -  30.7  290s
+ 200149 79123     cutoff   54         0.00000   11.17920      -  30.7  296s
+ 203759 80466   11.17920   69    2    0.00000   11.17920      -  30.7  300s
+
+Cutting planes:
+  Gomory: 7
+  Cover: 1
+  Implied bound: 2
+  MIR: 3
+  Flow cover: 19
+  Relax-and-lift: 4
+
+Explored 204177 nodes (6268246 simplex iterations) in 300.03 seconds
+Thread count was 7 (of 24 available processors)
+
+Solution count 5: 7.33012e-08 3.0605e-09 5.4048e-10 ... -0
+
+Time limit reached
+Best objective 7.330118950397e-08, best bound 1.117920262000e+01, gap -
+
+User-callback calls 526538, time in user-callback 0.61 sec
