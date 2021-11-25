@@ -1,0 +1,8 @@
+k_CHORS1_rev
+k_CHORS1_fwd
+k_CHORS2_rev
+k_CHORS2_fwd
+k_CHORS3_rev
+k_CHORS3_fwd
+k_CHORS4_rev
+k_CHORS4_fwd

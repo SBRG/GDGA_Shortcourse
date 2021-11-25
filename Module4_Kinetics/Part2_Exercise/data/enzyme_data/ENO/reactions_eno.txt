@@ -1,0 +1,3 @@
+ENO1: 2pg[c] + E_ENO[c] <=> E_ENO[c]&2pg
+ENO2: E_ENO[c]&pep <=> E_ENO[c] + pep[c]
+ENO3: E_ENO[c]&2pg <=> E_ENO[c]&pep

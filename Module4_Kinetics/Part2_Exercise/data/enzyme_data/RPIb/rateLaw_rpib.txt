@@ -1,0 +1,1 @@
+(2*param_RPIb_total*param_Volume_c*(k_RPIb1_fwd*k_RPIb2_fwd*k_RPIb3_fwd*r5p(c) - k_RPIb1_rev*k_RPIb2_rev*k_RPIb3_rev*ru5p__D(c)))/(k_RPIb2_fwd*k_RPIb3_fwd + k_RPIb1_rev*(k_RPIb2_fwd + k_RPIb3_rev) + k_RPIb1_fwd*k_RPIb2_fwd*r5p(c) + k_RPIb1_fwd*k_RPIb3_fwd*r5p(c) + k_RPIb1_fwd*k_RPIb3_rev*r5p(c) + k_RPIb2_rev*(k_RPIb1_rev + k_RPIb3_fwd + k_RPIb3_rev)*ru5p__D(c))

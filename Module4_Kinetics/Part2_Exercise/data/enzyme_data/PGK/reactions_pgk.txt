@@ -1,0 +1,9 @@
+PGK1: adp[c] + E_PGK[c] <=> E_PGK[c]&adp
+PGK2: 13dpg[c] + E_PGK[c] <=> E_PGK[c]&13dpg
+PGK3: E_PGK[c]&atp <=> atp[c] + E_PGK[c]
+PGK4: E_PGK[c]&3pg <=> 3pg[c] + E_PGK[c]
+PGK5: 13dpg[c] + E_PGK[c]&adp <=> E_PGK[c]&13dpg&adp
+PGK6: adp[c] + E_PGK[c]&13dpg <=> E_PGK[c]&13dpg&adp
+PGK7: E_PGK[c]&3pg&atp <=> 3pg[c] + E_PGK[c]&atp
+PGK8: E_PGK[c]&3pg&atp <=> atp[c] + E_PGK[c]&3pg
+PGK9: E_PGK[c]&13dpg&adp <=> E_PGK[c]&3pg&atp

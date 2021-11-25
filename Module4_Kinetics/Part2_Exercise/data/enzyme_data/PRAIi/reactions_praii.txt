@@ -1,0 +1,4 @@
+PRAIi1: E_PRAIi[c] + pran[c] <=> E_PRAIi[c]&pran
+PRAIi2: E_PRAIi[c]&2cpr5p <=> 2cpr5p[c] + E_PRAIi[c]
+PRAIi3: E_PRAIi[c]&pran <=> E_PRAIi[c]&2cpr5p
+PRAIi_Kic_2cpr5p_1_pran: 2cpr5p[c] + E_PRAIi[c] <=> E_PRAIi[c]&2cpr5p

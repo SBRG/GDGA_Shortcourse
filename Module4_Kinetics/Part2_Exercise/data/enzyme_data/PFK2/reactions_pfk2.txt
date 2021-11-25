@@ -1,0 +1,5 @@
+PFK21: E_PFK2[c] + f6p[c] <=> E_PFK2[c]&f6p
+PFK22: E_PFK2[c]&fdp <=> E_PFK2[c] + fdp[c]
+PFK23: atp[c] + E_PFK2[c]&f6p <=> E_PFK2[c]&f6p&atp
+PFK24: E_PFK2[c]&fdp&adp <=> adp[c] + E_PFK2[c]&fdp
+PFK25: E_PFK2[c]&f6p&atp <=> E_PFK2[c]&fdp&adp

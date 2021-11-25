@@ -1,0 +1,6 @@
+k_PGMi1_rev
+k_PGMi1_fwd
+k_PGMi2_rev
+k_PGMi2_fwd
+k_PGMi3_rev
+k_PGMi3_fwd

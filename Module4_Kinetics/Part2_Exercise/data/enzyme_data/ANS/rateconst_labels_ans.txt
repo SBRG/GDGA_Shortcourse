@@ -1,0 +1,14 @@
+k_ANS1_rev
+k_ANS1_fwd
+k_ANS2_rev
+k_ANS2_fwd
+k_ANS3_rev
+k_ANS3_fwd
+k_ANS4_rev
+k_ANS4_fwd
+k_ANS5_rev
+k_ANS5_fwd
+k_ANS6_rev
+k_ANS6_fwd
+k_ANS_Kic_trp__L_1_chor_rev
+k_ANS_Kic_trp__L_1_chor_fwd

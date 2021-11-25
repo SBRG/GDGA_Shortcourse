@@ -1,0 +1,8 @@
+k_DHQS1_rev
+k_DHQS1_fwd
+k_DHQS2_rev
+k_DHQS2_fwd
+k_DHQS3_rev
+k_DHQS3_fwd
+k_DHQS4_rev
+k_DHQS4_fwd

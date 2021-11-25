@@ -1,0 +1,3 @@
+RPE1: E_RPE[c] + ru5p__D[c] <=> E_RPE[c]&ru5p_[D]
+RPE2: E_RPE[c]&xu5p_[D] <=> E_RPE[c] + xu5p__D[c]
+RPE3: E_RPE[c]&ru5p_[D] <=> E_RPE[c]&xu5p_[D]

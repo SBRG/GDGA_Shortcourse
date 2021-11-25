@@ -1,0 +1,3 @@
+DHQTi1: 3dhq[c] + E_DHQTi[c] <=> E_DHQTi[c]&3dhq
+DHQTi2: E_DHQTi[c]&3dhsk <=> 3dhsk[c] + E_DHQTi[c]
+DHQTi3: E_DHQTi[c]&3dhq <=> E_DHQTi[c]&3dhsk

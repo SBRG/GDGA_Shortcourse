@@ -1,0 +1,6 @@
+E_ANPRT[c]
+E_ANPRT[c]&anth
+E_ANPRT[c]&pran
+E_ANPRT[c]&anth&trp__L
+E_ANPRT[c]&pran&ppi
+E_ANPRT[c]&prpp&anth

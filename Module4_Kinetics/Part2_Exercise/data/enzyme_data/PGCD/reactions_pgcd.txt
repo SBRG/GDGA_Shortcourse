@@ -1,0 +1,7 @@
+PGCD1: 3pg[c] + E_PGCD[c] <=> E_PGCD[c]&3pg
+PGCD2: E_PGCD[c]&3php <=> 3php[c] + E_PGCD[c]
+PGCD3: E_PGCD[c]&3pg + nad[c] <=> E_PGCD[c]&3pg&nad
+PGCD4: E_PGCD[c]&3php&nadh <=> E_PGCD[c]&3php + nadh[c]
+PGCD5: E_PGCD[c]&3pg&nad <=> E_PGCD[c]&3php&nadh
+PGCD_Kinc_ser__L_1_3php: E_PGCD[c] + ser__L[c] <=> E_PGCD[c]&ser__L
+PGCD_NC_ser__L: 3php[c] + E_PGCD[c]&ser__L <=> E_PGCD[c]&3php&ser__L

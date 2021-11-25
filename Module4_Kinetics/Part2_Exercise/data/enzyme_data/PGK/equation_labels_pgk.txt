@@ -1,0 +1,7 @@
+E_PGK[c]
+E_PGK[c]&13dpg
+E_PGK[c]&3pg
+E_PGK[c]&adp
+E_PGK[c]&atp
+E_PGK[c]&13dpg&adp
+E_PGK[c]&3pg&atp

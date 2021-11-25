@@ -1,0 +1,6 @@
+TKT11: E_TKT1[c] + xu5p__D[c] <=> E_TKT1[c]&xu5p_[D]
+TKT12: E_TKT1[c]&s7p <=> E_TKT1[c] + s7p[c]
+TKT13: E_TKT1[c]&MODIFIED + r5p[c] <=> E_TKT1[c]&MODIFIED&r5p
+TKT14: E_TKT1[c]&xu5p_[D] <=> E_TKT1[c]&MODIFIED&g3p
+TKT15: E_TKT1[c]&MODIFIED&r5p <=> E_TKT1[c]&s7p
+TKT16: E_TKT1[c]&MODIFIED&g3p <=> E_TKT1[c]&MODIFIED + g3p[c]

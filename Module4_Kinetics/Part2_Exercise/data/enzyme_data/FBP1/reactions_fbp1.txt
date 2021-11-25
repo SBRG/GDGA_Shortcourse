@@ -1,0 +1,4 @@
+FBP11: E_FBP1[c] + fdp[c] <=> E_FBP1[c]&fdp
+FBP12: E_FBP1[c]&f6p <=> E_FBP1[c] + f6p[c]
+FBP13: E_FBP1[c]&fdp <=> E_FBP1[c]&f6p&pi
+FBP14: E_FBP1[c]&f6p&pi <=> E_FBP1[c]&f6p + pi[c]

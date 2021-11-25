@@ -1,0 +1,6 @@
+PPS1: E_PPS[c] + pyr[c] <=> E_PPS[c]&pyr
+PPS2: E_PPS[c]&pep <=> E_PPS[c] + pep[c]
+PPS3: atp[c] + E_PPS[c]&pyr <=> E_PPS[c]&pyr&atp
+PPS4: E_PPS[c]&pep&amp <=> amp[c] + E_PPS[c]&pep
+PPS5: E_PPS[c]&pyr&atp <=> E_PPS[c]&pep&amp&pi
+PPS6: E_PPS[c]&pep&amp&pi <=> E_PPS[c]&pep&amp + pi[c]

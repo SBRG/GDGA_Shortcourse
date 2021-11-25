@@ -1,0 +1,8 @@
+k_FBA21_rev
+k_FBA21_fwd
+k_FBA22_rev
+k_FBA22_fwd
+k_FBA23_rev
+k_FBA23_fwd
+k_FBA24_rev
+k_FBA24_fwd

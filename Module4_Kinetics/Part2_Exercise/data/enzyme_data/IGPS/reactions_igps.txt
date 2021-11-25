@@ -1,0 +1,4 @@
+IGPS1: 2cpr5p[c] + E_IGPS[c] <=> E_IGPS[c]&2cpr5p
+IGPS2: E_IGPS[c]&3ig3p <=> 3ig3p[c] + E_IGPS[c]
+IGPS3: E_IGPS[c]&2cpr5p <=> E_IGPS[c]&3ig3p&co2
+IGPS4: E_IGPS[c]&3ig3p&co2 <=> co2[c] + E_IGPS[c]&3ig3p

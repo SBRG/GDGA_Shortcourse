@@ -1,0 +1,6 @@
+GND1: 6pgc[c] + E_GND[c] <=> E_GND[c]&6pgc
+GND2: E_GND[c]&ru5p_[D] <=> E_GND[c] + ru5p__D[c]
+GND3: E_GND[c]&6pgc + nadp[c] <=> E_GND[c]&6pgc&nadp
+GND4: E_GND[c]&ru5p_[D]&nadph <=> E_GND[c]&ru5p_[D] + nadph[c]
+GND5: E_GND[c]&6pgc&nadp <=> E_GND[c]&ru5p_[D]&nadph&co2
+GND6: E_GND[c]&ru5p_[D]&nadph&co2 <=> co2[c] + E_GND[c]&ru5p_[D]&nadph

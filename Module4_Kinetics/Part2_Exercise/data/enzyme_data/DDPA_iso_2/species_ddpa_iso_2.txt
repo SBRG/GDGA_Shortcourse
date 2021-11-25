@@ -1,0 +1,9 @@
+E_DDPA_iso_2[c]
+E_DDPA_iso_2[c]&2dda7p
+E_DDPA_iso_2[c]&pep
+E_DDPA_iso_2[c]&2dda7p&pi
+2dda7p[c]
+e4p[c]
+pep[c]
+pi[c]
+E_DDPA_iso_2[c]&pep&e4p

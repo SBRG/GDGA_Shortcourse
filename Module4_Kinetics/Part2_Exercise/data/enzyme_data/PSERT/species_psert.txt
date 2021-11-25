@@ -1,0 +1,9 @@
+E_PSERT[c]
+E_PSERT[c]&3php
+E_PSERT[c]&pser_[L]
+E_PSERT[c]&3php&glu_[L]
+3php[c]
+akg[c]
+glu__L[c]
+pser__L[c]
+E_PSERT[c]&pser_[L]&akg

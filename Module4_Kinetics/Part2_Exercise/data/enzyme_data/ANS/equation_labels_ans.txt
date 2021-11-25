@@ -1,0 +1,7 @@
+E_ANS[c]
+E_ANS[c]&anth
+E_ANS[c]&gln_[L]
+E_ANS[c]&anth&pyr
+E_ANS[c]&chor&gln_[L]
+E_ANS[c]&gln_[L]&trp__L
+E_ANS[c]&anth&pyr&glu_[L]

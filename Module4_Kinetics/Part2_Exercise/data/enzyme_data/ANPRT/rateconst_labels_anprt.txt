@@ -1,0 +1,12 @@
+k_ANPRT1_rev
+k_ANPRT1_fwd
+k_ANPRT2_rev
+k_ANPRT2_fwd
+k_ANPRT3_rev
+k_ANPRT3_fwd
+k_ANPRT4_rev
+k_ANPRT4_fwd
+k_ANPRT5_rev
+k_ANPRT5_fwd
+k_ANPRT_Kic_trp__L_1_prpp_rev
+k_ANPRT_Kic_trp__L_1_prpp_fwd

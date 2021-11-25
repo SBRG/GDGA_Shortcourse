@@ -17,7 +17,8 @@ from mass.util.expressions import strip_time
 compartment_finder_re = re.compile(r"\s*\[([A-Za-z])\]")
 rateconst_re = re.compile(r"k_(\S*)_(fwd|rev)\Z")
 bound_metabolites_re = re.compile(r"&|@|#")
-
+modified_re = re.compile(r"mod")
+modified_upper_re = re.compile(r"MODIFIED")
 
 def format_percent_str(percent):
     return str(int(round(percent * 100, 0))).replace(".", "")
@@ -169,6 +170,10 @@ def metabolites_from_txt(enzyme_module, species_filepath):
             if bound_metabolites_re.search(new_id):
                 # Correct IDs on bound species and store number bound
                 for bound_specie_id in bound_metabolites_re.split(new_id)[1:]:
+                    if modified_re.match(bound_specie_id):
+                        continue
+                    if modified_upper_re.match(bound_specie_id):
+                        continue
                     if compartment is not None:
                         bound_specie_id += "_" + compartment
                     bound_specie_id = prefix_number_id(bound_specie_id)

@@ -1,0 +1,5 @@
+PSERT1: 3php[c] + E_PSERT[c] <=> E_PSERT[c]&3php
+PSERT2: E_PSERT[c]&pser_[L] <=> E_PSERT[c] + pser__L[c]
+PSERT3: E_PSERT[c]&3php + glu__L[c] <=> E_PSERT[c]&3php&glu_[L]
+PSERT4: E_PSERT[c]&pser_[L]&akg <=> akg[c] + E_PSERT[c]&pser_[L]
+PSERT5: E_PSERT[c]&3php&glu_[L] <=> E_PSERT[c]&pser_[L]&akg

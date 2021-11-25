@@ -1,0 +1,3 @@
+RPIb1: E_RPIb[c] + r5p[c] <=> E_RPIb[c]&r5p
+RPIb2: E_RPIb[c]&ru5p_[D] <=> E_RPIb[c] + ru5p__D[c]
+RPIb3: E_RPIb[c]&r5p <=> E_RPIb[c]&ru5p_[D]

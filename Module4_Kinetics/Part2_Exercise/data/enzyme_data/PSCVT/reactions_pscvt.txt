@@ -1,0 +1,5 @@
+PSCVT1: E_PSCVT[c] + skm5p[c] <=> E_PSCVT[c]&skm5p
+PSCVT2: E_PSCVT[c]&3psme <=> 3psme[c] + E_PSCVT[c]
+PSCVT3: E_PSCVT[c]&skm5p + pep[c] <=> E_PSCVT[c]&skm5p&pep
+PSCVT4: E_PSCVT[c]&3psme&pi <=> E_PSCVT[c]&3psme + pi[c]
+PSCVT5: E_PSCVT[c]&skm5p&pep <=> E_PSCVT[c]&3psme&pi

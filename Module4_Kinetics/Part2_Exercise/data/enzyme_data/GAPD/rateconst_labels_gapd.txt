@@ -1,0 +1,12 @@
+k_GAPD1_rev
+k_GAPD1_fwd
+k_GAPD2_rev
+k_GAPD2_fwd
+k_GAPD3_rev
+k_GAPD3_fwd
+k_GAPD4_rev
+k_GAPD4_fwd
+k_GAPD5_rev
+k_GAPD5_fwd
+k_GAPD6_rev
+k_GAPD6_fwd

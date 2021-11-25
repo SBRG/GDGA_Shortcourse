@@ -1,0 +1,6 @@
+k_PGI1_rev
+k_PGI1_fwd
+k_PGI2_rev
+k_PGI2_fwd
+k_PGI3_rev
+k_PGI3_fwd

@@ -1,0 +1,6 @@
+E_GAPD[c]
+E_GAPD[c]&nad
+E_GAPD[c]&nadh
+E_GAPD[c]&nad&g3p
+E_GAPD[c]&nadh&13dpg
+E_GAPD[c]&nad&g3p&pi

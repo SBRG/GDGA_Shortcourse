@@ -1,0 +1,12 @@
+k_TRPS11_rev
+k_TRPS11_fwd
+k_TRPS12_rev
+k_TRPS12_fwd
+k_TRPS13_rev
+k_TRPS13_fwd
+k_TRPS14_rev
+k_TRPS14_fwd
+k_TRPS15_rev
+k_TRPS15_fwd
+k_TRPS16_rev
+k_TRPS16_fwd

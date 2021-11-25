@@ -1,0 +1,6 @@
+GAPD1: E_GAPD[c] + nad[c] <=> E_GAPD[c]&nad
+GAPD2: E_GAPD[c]&nadh <=> E_GAPD[c] + nadh[c]
+GAPD3: E_GAPD[c]&nad + g3p[c] <=> E_GAPD[c]&nad&g3p
+GAPD4: E_GAPD[c]&nadh&13dpg <=> 13dpg[c] + E_GAPD[c]&nadh
+GAPD5: E_GAPD[c]&nad&g3p + pi[c] <=> E_GAPD[c]&nad&g3p&pi
+GAPD6: E_GAPD[c]&nad&g3p&pi <=> E_GAPD[c]&nadh&13dpg

@@ -1,0 +1,4 @@
+RPIa1: E_RPIa[c] + r5p[c] <=> E_RPIa[c]&r5p
+RPIa2: E_RPIa[c]&ru5p_[D] <=> E_RPIa[c] + ru5p__D[c]
+RPIa3: E_RPIa[c]&r5p <=> E_RPIa[c]&ru5p_[D]
+RPIa_Kic_ara5p_1_r5p: ara5p[c] + E_RPIa[c] <=> E_RPIa[c]&ara5p

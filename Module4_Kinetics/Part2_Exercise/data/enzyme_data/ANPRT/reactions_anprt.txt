@@ -1,0 +1,6 @@
+ANPRT1: anth[c] + E_ANPRT[c] <=> E_ANPRT[c]&anth
+ANPRT2: E_ANPRT[c]&pran <=> E_ANPRT[c] + pran[c]
+ANPRT3: E_ANPRT[c]&anth + prpp[c] <=> E_ANPRT[c]&prpp&anth
+ANPRT4: E_ANPRT[c]&pran&ppi <=> E_ANPRT[c]&pran + ppi[c]
+ANPRT5: E_ANPRT[c]&prpp&anth <=> E_ANPRT[c]&pran&ppi
+ANPRT_Kic_trp__L_1_prpp: E_ANPRT[c]&anth + trp__L[c] <=> E_ANPRT[c]&anth&trp__L
