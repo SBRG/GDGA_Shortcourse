@@ -1,9 +1,0 @@
-E_SHK3Dr_iso_1[c]
-E_SHK3Dr_iso_1[c]&nadp
-E_SHK3Dr_iso_1[c]&nadph
-E_SHK3Dr_iso_1[c]&nadp&skm
-3dhsk[c]
-nadp[c]
-nadph[c]
-skm[c]
-E_SHK3Dr_iso_1[c]&nadph&3dhsk

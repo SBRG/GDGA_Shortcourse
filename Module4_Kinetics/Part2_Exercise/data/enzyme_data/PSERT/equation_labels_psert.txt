@@ -1,5 +1,0 @@
-E_PSERT[c]
-E_PSERT[c]&3php
-E_PSERT[c]&pser_[L]
-E_PSERT[c]&3php&glu_[L]
-E_PSERT[c]&pser_[L]&akg

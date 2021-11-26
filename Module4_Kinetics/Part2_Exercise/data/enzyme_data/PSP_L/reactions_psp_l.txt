@@ -1,4 +1,0 @@
-PSP_L1: E_PSP_L[c] + pser__L[c] <=> E_PSP_L[c]&pser_[L]
-PSP_L2: E_PSP_L[c]&pi <=> E_PSP_L[c] + pi[c]
-PSP_L3: E_PSP_L[c]&pser_[L] <=> E_PSP_L[c]&pi&ser_[L]
-PSP_L4: E_PSP_L[c]&pi&ser_[L] <=> E_PSP_L[c]&pi + ser__L[c]

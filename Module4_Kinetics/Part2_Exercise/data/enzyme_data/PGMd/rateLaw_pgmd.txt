@@ -1,1 +1,0 @@
-((2pg(c)*k_PGMd1_fwd*k_PGMd2_fwd*k_PGMd3_fwd - 3pg(c)*k_PGMd1_rev*k_PGMd2_rev*k_PGMd3_rev)*param_PGMd_total*param_Volume_c)/(2pg(c)*k_PGMd1_fwd*k_PGMd2_fwd + 2pg(c)*k_PGMd1_fwd*k_PGMd3_fwd + k_PGMd2_fwd*k_PGMd3_fwd + 2pg(c)*k_PGMd1_fwd*k_PGMd3_rev + k_PGMd1_rev*(k_PGMd2_fwd + k_PGMd3_rev) + 3pg(c)*k_PGMd2_rev*(k_PGMd1_rev + k_PGMd3_fwd + k_PGMd3_rev))

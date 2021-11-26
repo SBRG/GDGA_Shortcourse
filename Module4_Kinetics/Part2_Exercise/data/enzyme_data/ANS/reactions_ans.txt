@@ -1,7 +1,0 @@
-ANS1: E_ANS[c] + gln__L[c] <=> E_ANS[c]&gln_[L]
-ANS2: E_ANS[c]&anth <=> anth[c] + E_ANS[c]
-ANS3: chor[c] + E_ANS[c]&gln_[L] <=> E_ANS[c]&chor&gln_[L]
-ANS4: E_ANS[c]&anth&pyr <=> E_ANS[c]&anth + pyr[c]
-ANS5: E_ANS[c]&chor&gln_[L] <=> E_ANS[c]&anth&pyr&glu_[L]
-ANS6: E_ANS[c]&anth&pyr&glu_[L] <=> E_ANS[c]&anth&pyr + glu__L[c]
-ANS_Kic_trp__L_1_chor: E_ANS[c]&gln_[L] + trp__L[c] <=> E_ANS[c]&gln_[L]&trp__L

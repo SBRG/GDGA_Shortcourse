@@ -1,5 +1,0 @@
-DDPA_iso_21: E_DDPA_iso_2[c] + pep[c] <=> E_DDPA_iso_2[c]&pep
-DDPA_iso_22: E_DDPA_iso_2[c]&2dda7p <=> 2dda7p[c] + E_DDPA_iso_2[c]
-DDPA_iso_23: e4p[c] + E_DDPA_iso_2[c]&pep <=> E_DDPA_iso_2[c]&pep&e4p
-DDPA_iso_24: E_DDPA_iso_2[c]&2dda7p&pi <=> E_DDPA_iso_2[c]&2dda7p + pi[c]
-DDPA_iso_25: E_DDPA_iso_2[c]&pep&e4p <=> E_DDPA_iso_2[c]&2dda7p&pi

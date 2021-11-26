@@ -1,5 +1,0 @@
-G6PDH2r1: E_G6PDH2r[c] + nadp[c] <=> E_G6PDH2r[c]&nadp
-G6PDH2r2: E_G6PDH2r[c]&6pgl <=> 6pgl[c] + E_G6PDH2r[c]
-G6PDH2r3: E_G6PDH2r[c]&nadp + g6p[c] <=> E_G6PDH2r[c]&nadp&g6p
-G6PDH2r4: E_G6PDH2r[c]&6pgl&nadph <=> E_G6PDH2r[c]&6pgl + nadph[c]
-G6PDH2r5: E_G6PDH2r[c]&nadp&g6p <=> E_G6PDH2r[c]&6pgl&nadph

@@ -1,5 +1,0 @@
-PYK11: adp[c] + E_PYK1[c] <=> E_PYK1[c]&adp
-PYK12: E_PYK1[c]&atp <=> atp[c] + E_PYK1[c]
-PYK13: E_PYK1[c]&adp + pep[c] <=> E_PYK1[c]&pep&adp
-PYK14: E_PYK1[c]&pyr&atp <=> E_PYK1[c]&atp + pyr[c]
-PYK15: E_PYK1[c]&pep&adp <=> E_PYK1[c]&pyr&atp

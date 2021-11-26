@@ -1,5 +1,0 @@
-SHK3Dr_iso_11: E_SHK3Dr_iso_1[c] + nadph[c] <=> E_SHK3Dr_iso_1[c]&nadph
-SHK3Dr_iso_12: E_SHK3Dr_iso_1[c]&nadp <=> E_SHK3Dr_iso_1[c] + nadp[c]
-SHK3Dr_iso_13: 3dhsk[c] + E_SHK3Dr_iso_1[c]&nadph <=> E_SHK3Dr_iso_1[c]&nadph&3dhsk
-SHK3Dr_iso_14: E_SHK3Dr_iso_1[c]&nadp&skm <=> E_SHK3Dr_iso_1[c]&nadp + skm[c]
-SHK3Dr_iso_15: E_SHK3Dr_iso_1[c]&nadph&3dhsk <=> E_SHK3Dr_iso_1[c]&nadp&skm

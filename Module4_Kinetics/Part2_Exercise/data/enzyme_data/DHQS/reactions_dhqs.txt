@@ -1,4 +1,0 @@
-DHQS1: 2dda7p[c] + E_DHQS[c] <=> E_DHQS[c]&2dda7p
-DHQS2: E_DHQS[c]&3dhq <=> 3dhq[c] + E_DHQS[c]
-DHQS3: E_DHQS[c]&2dda7p <=> E_DHQS[c]&3dhq&pi
-DHQS4: E_DHQS[c]&3dhq&pi <=> E_DHQS[c]&3dhq + pi[c]

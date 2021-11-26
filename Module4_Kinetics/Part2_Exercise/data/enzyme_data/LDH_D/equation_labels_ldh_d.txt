@@ -1,5 +1,0 @@
-E_LDH_D[c]
-E_LDH_D[c]&lac_[D]
-E_LDH_D[c]&pyr
-E_LDH_D[c]&lac_[D]&nad
-E_LDH_D[c]&nadh&pyr

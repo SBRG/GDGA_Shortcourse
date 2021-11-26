@@ -1,6 +1,0 @@
-TRPS11: 3ig3p[c] + E_TRPS1[c] <=> E_TRPS1[c]&3ig3p
-TRPS12: E_TRPS1[c]&trp_[L] <=> E_TRPS1[c] + trp__L[c]
-TRPS13: E_TRPS1[c]&indole + ser__L[c] <=> E_TRPS1[c]&indole&ser_[L]
-TRPS14: E_TRPS1[c]&3ig3p <=> E_TRPS1[c]&indole&g3p
-TRPS15: E_TRPS1[c]&indole&ser_[L] <=> E_TRPS1[c]&trp_[L]
-TRPS16: E_TRPS1[c]&indole&g3p <=> E_TRPS1[c]&indole + g3p[c]

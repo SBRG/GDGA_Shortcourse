@@ -1,9 +1,0 @@
-E_G6PDH2r[c]
-E_G6PDH2r[c]&6pgl
-E_G6PDH2r[c]&nadp
-E_G6PDH2r[c]&6pgl&nadph
-6pgl[c]
-g6p[c]
-nadp[c]
-nadph[c]
-E_G6PDH2r[c]&nadp&g6p

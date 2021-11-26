@@ -1,1 +1,0 @@
-(2*(dhap(c)*k_TPI1_fwd*k_TPI2_fwd*k_TPI3_fwd - g3p(c)*k_TPI1_rev*k_TPI2_rev*k_TPI3_rev)*param_TPI_total*param_Volume_c)/(dhap(c)*k_TPI1_fwd*k_TPI2_fwd + dhap(c)*k_TPI1_fwd*k_TPI3_fwd + k_TPI2_fwd*k_TPI3_fwd + dhap(c)*k_TPI1_fwd*k_TPI3_rev + k_TPI1_rev*(k_TPI2_fwd + k_TPI3_rev) + g3p(c)*k_TPI2_rev*(k_TPI1_rev + k_TPI3_fwd + k_TPI3_rev))

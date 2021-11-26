@@ -1,6 +1,0 @@
-k_PGMd1_rev
-k_PGMd1_fwd
-k_PGMd2_rev
-k_PGMd2_fwd
-k_PGMd3_rev
-k_PGMd3_fwd

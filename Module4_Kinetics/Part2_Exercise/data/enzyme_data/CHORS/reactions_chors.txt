@@ -1,4 +1,0 @@
-CHORS1: 3psme[c] + E_CHORS[c] <=> E_CHORS[c]&3psme
-CHORS2: E_CHORS[c]&chor <=> chor[c] + E_CHORS[c]
-CHORS3: E_CHORS[c]&3psme <=> E_CHORS[c]&chor&pi
-CHORS4: E_CHORS[c]&chor&pi <=> E_CHORS[c]&chor + pi[c]

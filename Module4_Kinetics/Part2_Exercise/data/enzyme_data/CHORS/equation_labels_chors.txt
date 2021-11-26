@@ -1,4 +1,0 @@
-E_CHORS[c]
-E_CHORS[c]&3psme
-E_CHORS[c]&chor
-E_CHORS[c]&chor&pi

@@ -1,4 +1,0 @@
-FBP21: E_FBP2[c] + fdp[c] <=> E_FBP2[c]&fdp
-FBP22: E_FBP2[c]&f6p <=> E_FBP2[c] + f6p[c]
-FBP23: E_FBP2[c]&fdp <=> E_FBP2[c]&f6p&pi
-FBP24: E_FBP2[c]&f6p&pi <=> E_FBP2[c]&f6p + pi[c]

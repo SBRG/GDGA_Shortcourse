@@ -1,5 +1,0 @@
-E_ENO[c]
-E_ENO[c]&2pg
-2pg[c]
-pep[c]
-E_ENO[c]&pep

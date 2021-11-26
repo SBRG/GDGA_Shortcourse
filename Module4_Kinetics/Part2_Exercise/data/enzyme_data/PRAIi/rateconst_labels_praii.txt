@@ -1,8 +1,0 @@
-k_PRAIi1_rev
-k_PRAIi1_fwd
-k_PRAIi2_rev
-k_PRAIi2_fwd
-k_PRAIi3_rev
-k_PRAIi3_fwd
-k_PRAIi_Kic_2cpr5p_1_pran_rev
-k_PRAIi_Kic_2cpr5p_1_pran_fwd

@@ -1,5 +1,0 @@
-E_PGI[c]
-E_PGI[c]&f6p
-f6p[c]
-g6p[c]
-E_PGI[c]&g6p

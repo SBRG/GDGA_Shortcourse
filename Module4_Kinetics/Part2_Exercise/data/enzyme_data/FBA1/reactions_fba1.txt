@@ -1,4 +1,0 @@
-FBA11: E_FBA1[c] + fdp[c] <=> E_FBA1[c]&fdp
-FBA12: E_FBA1[c]&dhap <=> dhap[c] + E_FBA1[c]
-FBA13: E_FBA1[c]&fdp <=> E_FBA1[c]&dhap&g3p
-FBA14: E_FBA1[c]&dhap&g3p <=> E_FBA1[c]&dhap + g3p[c]

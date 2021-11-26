@@ -1,6 +1,0 @@
-k_DHQTi1_rev
-k_DHQTi1_fwd
-k_DHQTi2_rev
-k_DHQTi2_fwd
-k_DHQTi3_rev
-k_DHQTi3_fwd

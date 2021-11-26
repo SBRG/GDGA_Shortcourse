@@ -1,6 +1,0 @@
-k_RPE1_rev
-k_RPE1_fwd
-k_RPE2_rev
-k_RPE2_fwd
-k_RPE3_rev
-k_RPE3_fwd

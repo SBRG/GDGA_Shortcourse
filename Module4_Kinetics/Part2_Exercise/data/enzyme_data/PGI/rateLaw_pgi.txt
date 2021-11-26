@@ -1,1 +1,0 @@
-((g6p(c)*k_PGI1_fwd*k_PGI2_fwd*k_PGI3_fwd - f6p(c)*k_PGI1_rev*k_PGI2_rev*k_PGI3_rev)*param_PGI_total*param_Volume_c)/(g6p(c)*k_PGI1_fwd*k_PGI2_fwd + g6p(c)*k_PGI1_fwd*k_PGI3_fwd + k_PGI2_fwd*k_PGI3_fwd + g6p(c)*k_PGI1_fwd*k_PGI3_rev + k_PGI1_rev*(k_PGI2_fwd + k_PGI3_rev) + f6p(c)*k_PGI2_rev*(k_PGI1_rev + k_PGI3_fwd + k_PGI3_rev))

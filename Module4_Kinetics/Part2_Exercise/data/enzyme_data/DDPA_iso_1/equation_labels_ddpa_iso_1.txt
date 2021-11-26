@@ -1,8 +1,0 @@
-E_DDPA_iso_1[c]
-E_DDPA_iso_1[c]&2dda7p
-E_DDPA_iso_1[c]&2pg
-E_DDPA_iso_1[c]&pep
-E_DDPA_iso_1[c]&2dda7p&pi
-E_DDPA_iso_1[c]&pep&2pg
-E_DDPA_iso_1[c]&pep&e4p
-E_DDPA_iso_1[c]&pep&e4p&2pg

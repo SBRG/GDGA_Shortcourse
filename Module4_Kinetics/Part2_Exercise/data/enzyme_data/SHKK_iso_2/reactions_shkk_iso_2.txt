@@ -1,5 +1,0 @@
-SHKK_iso_21: E_SHKK_iso_2[c] + skm[c] <=> E_SHKK_iso_2[c]&skm
-SHKK_iso_22: E_SHKK_iso_2[c]&skm5p <=> E_SHKK_iso_2[c] + skm5p[c]
-SHKK_iso_23: atp[c] + E_SHKK_iso_2[c]&skm <=> E_SHKK_iso_2[c]&skm&atp
-SHKK_iso_24: E_SHKK_iso_2[c]&skm5p&adp <=> adp[c] + E_SHKK_iso_2[c]&skm5p
-SHKK_iso_25: E_SHKK_iso_2[c]&skm&atp <=> E_SHKK_iso_2[c]&skm5p&adp

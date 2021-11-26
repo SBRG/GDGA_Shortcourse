@@ -1,3 +1,0 @@
-PGI1: E_PGI[c] + g6p[c] <=> E_PGI[c]&g6p
-PGI2: E_PGI[c]&f6p <=> E_PGI[c] + f6p[c]
-PGI3: E_PGI[c]&g6p <=> E_PGI[c]&f6p

@@ -1,3 +1,0 @@
-PGL1: 6pgl[c] + E_PGL[c] <=> E_PGL[c]&6pgl
-PGL2: E_PGL[c]&6pgc <=> 6pgc[c] + E_PGL[c]
-PGL3: E_PGL[c]&6pgl <=> E_PGL[c]&6pgc

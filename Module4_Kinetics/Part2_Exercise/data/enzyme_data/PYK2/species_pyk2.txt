@@ -1,9 +1,0 @@
-E_PYK2[c]
-E_PYK2[c]&adp
-E_PYK2[c]&atp
-E_PYK2[c]&pep&adp
-adp[c]
-atp[c]
-pep[c]
-pyr[c]
-E_PYK2[c]&pyr&atp

@@ -1,9 +1,0 @@
-E_SHKK_iso_1[c]
-E_SHKK_iso_1[c]&skm
-E_SHKK_iso_1[c]&skm5p
-E_SHKK_iso_1[c]&skm&atp
-adp[c]
-atp[c]
-skm[c]
-skm5p[c]
-E_SHKK_iso_1[c]&skm5p&adp

@@ -1,8 +1,0 @@
-k_FBP21_rev
-k_FBP21_fwd
-k_FBP22_rev
-k_FBP22_fwd
-k_FBP23_rev
-k_FBP23_fwd
-k_FBP24_rev
-k_FBP24_fwd
