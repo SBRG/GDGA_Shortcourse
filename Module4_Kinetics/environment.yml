@@ -1,0 +1,12 @@
+name: gdga-kinetics
+channels:
+  - defaults
+dependencies:
+  - altair
+  - jupyter
+  - openpyxl
+  - python=3.9
+  - pip
+  - pip:
+    - masspy
+    - gurobipy
