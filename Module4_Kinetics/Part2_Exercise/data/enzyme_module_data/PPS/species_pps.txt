@@ -1,0 +1,11 @@
+E_PPS[c]
+E_PPS[c]&pep
+E_PPS[c]&pyr
+E_PPS[c]&pep&amp
+E_PPS[c]&pyr&atp
+amp[c]
+atp[c]
+pep[c]
+pi[c]
+pyr[c]
+E_PPS[c]&pep&amp&pi

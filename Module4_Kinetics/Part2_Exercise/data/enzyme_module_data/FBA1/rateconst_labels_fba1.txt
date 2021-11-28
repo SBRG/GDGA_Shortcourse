@@ -1,0 +1,8 @@
+k_FBA11_rev
+k_FBA11_fwd
+k_FBA12_rev
+k_FBA12_fwd
+k_FBA13_rev
+k_FBA13_fwd
+k_FBA14_rev
+k_FBA14_fwd

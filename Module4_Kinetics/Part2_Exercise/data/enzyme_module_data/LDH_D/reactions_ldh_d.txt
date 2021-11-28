@@ -1,0 +1,5 @@
+LDH_D1: E_LDH_D[c] + lac__D[c] <=> E_LDH_D[c]&lac_[D]
+LDH_D2: E_LDH_D[c]&pyr <=> E_LDH_D[c] + pyr[c]
+LDH_D3: E_LDH_D[c]&lac_[D] + nad[c] <=> E_LDH_D[c]&lac_[D]&nad
+LDH_D4: E_LDH_D[c]&nadh&pyr <=> E_LDH_D[c]&pyr + nadh[c]
+LDH_D5: E_LDH_D[c]&lac_[D]&nad <=> E_LDH_D[c]&nadh&pyr

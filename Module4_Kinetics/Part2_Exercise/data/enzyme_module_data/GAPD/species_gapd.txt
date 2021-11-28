@@ -1,0 +1,11 @@
+E_GAPD[c]
+E_GAPD[c]&nad
+E_GAPD[c]&nadh
+E_GAPD[c]&nad&g3p
+E_GAPD[c]&nadh&13dpg
+13dpg[c]
+g3p[c]
+nad[c]
+nadh[c]
+pi[c]
+E_GAPD[c]&nad&g3p&pi

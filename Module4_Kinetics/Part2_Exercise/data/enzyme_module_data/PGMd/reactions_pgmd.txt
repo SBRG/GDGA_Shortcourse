@@ -1,0 +1,3 @@
+PGMd1: 3pg[c] + E_PGMd[c] <=> E_PGMd[c]&3pg
+PGMd2: E_PGMd[c]&2pg <=> 2pg[c] + E_PGMd[c]
+PGMd3: E_PGMd[c]&3pg <=> E_PGMd[c]&2pg

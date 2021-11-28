@@ -1,0 +1,6 @@
+k_TPI1_rev
+k_TPI1_fwd
+k_TPI2_rev
+k_TPI2_fwd
+k_TPI3_rev
+k_TPI3_fwd

@@ -1,0 +1,3 @@
+TPI1: dhap[c] + E_TPI[c] <=> E_TPI[c]&dhap
+TPI2: E_TPI[c]&g3p <=> E_TPI[c] + g3p[c]
+TPI3: E_TPI[c]&dhap <=> E_TPI[c]&g3p

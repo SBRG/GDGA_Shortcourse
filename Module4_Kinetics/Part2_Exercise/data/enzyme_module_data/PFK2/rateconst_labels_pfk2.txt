@@ -1,0 +1,10 @@
+k_PFK21_rev
+k_PFK21_fwd
+k_PFK22_rev
+k_PFK22_fwd
+k_PFK23_rev
+k_PFK23_fwd
+k_PFK24_rev
+k_PFK24_fwd
+k_PFK25_rev
+k_PFK25_fwd

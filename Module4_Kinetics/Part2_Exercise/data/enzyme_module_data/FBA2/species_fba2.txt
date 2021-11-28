@@ -1,0 +1,7 @@
+E_FBA2[c]
+E_FBA2[c]&dhap
+E_FBA2[c]&fdp
+dhap[c]
+fdp[c]
+g3p[c]
+E_FBA2[c]&dhap&g3p
