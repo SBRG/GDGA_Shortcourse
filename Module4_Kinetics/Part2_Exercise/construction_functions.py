@@ -5,7 +5,6 @@ from operator import attrgetter, iconcat
 
 from six import iteritems
 
-import altair as alt
 import pandas as pd
 import sympy as sym
 
@@ -21,65 +20,6 @@ rateconst_re = re.compile(r"k_(\S*)_(fwd|rev)\Z")
 bound_metabolites_re = re.compile(r"&|@|#")
 modified_re = re.compile(r"mod")
 modified_upper_re = re.compile(r"MODIFIED")
-
-def compare_data(growth_data, solutions, scale="linear", xlim=None, ylim=None):
-    data = pd.concat(objs=(growth_data, solutions), axis=1).dropna()
-    data = data.reset_index()
-    data.columns = ["ID", "Measured", "Computed"]
-    comparison_plot = alt.Chart(data, width=300, height=300).mark_circle(size=60).encode(
-         alt.X('Measured', type='quantitative', scale=alt.Scale(type=scale)),
-         alt.Y('Computed', type='quantitative', scale=alt.Scale(type=scale)),
-        color="ID",
-        tooltip=list(data.columns)
-    )
-
-    minimum, maximum = [
-        min(data.drop("ID", axis=1).min()) * 1.2,
-        max(data.drop("ID", axis=1).max()) * 1.2,
-    ]
-    line = pd.DataFrame({
-        'Measured': [minimum, maximum],
-        'Computed':  [minimum, maximum],
-    })
-    line_plot = alt.Chart(line).mark_line(color= 'grey').encode(
-        x='Measured',
-        y='Computed',
-    )
-    return comparison_plot + line_plot
-
-def plot_time_profile(solution, observable=None, xscale="linear", yscale="linear", xlim=None, ylim=None):
-    df = solution.to_frame()
-    if observable:
-        df = df[observable]
-    data = df.melt(ignore_index=False).reset_index()
-    # The basic line
-    alt.data_transformers.disable_max_rows()
-    selection = alt.selection_multi(fields=['variable'], bind='legend')
-    if xlim is None:
-        xlim = [1e-5, solution.time[-1]]
-    if ylim is None:
-        ylim = [1e-5, 1]
-    line = alt.Chart(data).mark_line(clip=True).encode(
-        alt.X(
-            'Time:Q',
-            title="Time",
-            scale=alt.Scale(type=xscale, domain=xlim),
-            axis=alt.Axis(grid=True)
-        ),
-        alt.Y(
-            'value:Q',
-            title="Concentrations",
-            scale=alt.Scale(type=yscale, domain=ylim),
-            axis=alt.Axis(grid=False)
-        ),
-        color='variable:N',
-        opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
-        tooltip= ["Time", "value"],
-    ).add_selection(
-        selection
-    )
-    return line
-
 
 def format_percent_str(percent):
     return str(int(round(percent * 100, 0))).replace(".", "")
@@ -338,8 +278,7 @@ def rateconsts_from_txt(enzyme_module, kcluster, labels_filepath,
         except ValueError:
             value = float(value.replace("*^", "e"))
         enzyme_module.id_map[key][rateconst] = new_rateconst
-        rateconst_values[new_rateconst] = value * 3600  # s -> hrs
-
+        rateconst_values[new_rateconst] = value # s 
     # Handle any symmetry model rate laws
     for rid, rxn_list in iteritems(to_unify):
         # Unity rate parameters

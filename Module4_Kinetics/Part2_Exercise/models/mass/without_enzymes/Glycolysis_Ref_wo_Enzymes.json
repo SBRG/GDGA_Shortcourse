@@ -1,21 +1,21 @@
 {
     "boundary_conditions": {
-        "_3pg_b": 0.01247896419942504,
-        "adp_b": 0.0008182181342809921,
-        "amp_b": 0.0006689868749447581,
-        "atp_b": 0.0021009550571563446,
-        "dhap_b": 0.009425179386674658,
-        "f6p_b": 0.0006059037110803185,
-        "fdp_b": 0.03356832065354579,
-        "g3p_b": 0.0002096358197370516,
-        "g6p_b": 0.0005477613328221034,
+        "_3pg_b": 0.011918295503821041,
+        "adp_b": 0.013485602764064164,
+        "amp_b": 0.0004675073168528272,
+        "atp_b": 0.10563257759864789,
+        "dhap_b": 0.005646009981983608,
+        "f6p_b": 0.010469996726852372,
+        "fdp_b": 0.024770109477155,
+        "g3p_b": 0.00033858735175330666,
+        "g6p_b": 0.010660777255809786,
         "h2o_b": 1.0,
         "h_b": 1.0,
-        "nad_b": 0.05161830724872942,
-        "nadh_b": 6.0864944719488685e-05,
-        "pep_b": 0.0009499403774978504,
-        "pi_b": 0.004489976884805637,
-        "pyr_b": 0.0005649616803191214
+        "nad_b": 0.07332734057212388,
+        "nadh_b": 4.956883141644378e-05,
+        "pep_b": 0.0011704751317990706,
+        "pi_b": 0.004266705661805919,
+        "pyr_b": 0.0001681588289508266
     },
     "compartments": {
         "c": ""
@@ -101,37 +101,37 @@
         {
             "annotation": {
                 "asap": [
-                    "ABE-0012086"
+                    "ABE-0012821"
                 ],
                 "ecogene": [
-                    "EG11195"
+                    "EG11517"
                 ],
                 "ncbigene": [
-                    "948204"
+                    "948424"
                 ],
                 "ncbigi": [
-                    "16131565"
+                    "16131763"
                 ],
                 "refseq_locus_tag": [
-                    "b3697"
+                    "b3925"
                 ],
                 "refseq_name": [
-                    "yidA"
+                    "glpX"
                 ],
                 "refseq_synonym": [
-                    "JW3674",
-                    "ECK3689"
+                    "JW3896",
+                    "ECK3917"
                 ],
                 "sbo": "SBO:0000243",
                 "uniprot": [
-                    "P0A8Y5"
+                    "P0A9C9"
                 ]
             },
-            "id": "b3697",
-            "name": "yidA",
+            "id": "b3925",
+            "name": "glpX",
             "notes": {
                 "original_bigg_ids": [
-                    "b3697"
+                    "b3925"
                 ]
             }
         },
@@ -288,38 +288,41 @@
         {
             "annotation": {
                 "asap": [
-                    "ABE-0002563"
+                    "ABE-0011818"
                 ],
                 "ecogene": [
-                    "EG11699"
+                    "EG12296"
                 ],
                 "ncbigene": [
-                    "945068"
+                    "948130"
                 ],
                 "ncbigi": [
-                    "16128723"
+                    "16131483"
                 ],
                 "refseq_locus_tag": [
-                    "b0755"
+                    "b3612"
                 ],
                 "refseq_name": [
-                    "gpmA"
+                    "gpmM"
                 ],
                 "refseq_synonym": [
-                    "JW0738",
-                    "gpm",
-                    "ECK0744"
+                    "JW3587",
+                    "yibO",
+                    "ECK3602",
+                    "pgmI",
+                    "gpmC",
+                    "gpmI"
                 ],
                 "sbo": "SBO:0000243",
                 "uniprot": [
-                    "P62707"
+                    "P37689"
                 ]
             },
-            "id": "b0755",
-            "name": "gpmA",
+            "id": "b3612",
+            "name": "gpmM",
             "notes": {
                 "original_bigg_ids": [
-                    "b0755"
+                    "b3612"
                 ]
             }
         },
@@ -476,10 +479,10 @@
             }
         }
     ],
-    "id": "Glycolysis_C7",
+    "id": "Glycolysis_Ref_wo_Enzymes",
     "metabolites": [
         {
-            "_initial_condition": 0.0003103545581581695,
+            "_initial_condition": 0.005139908348411884,
             "annotation": {
                 "bigg.metabolite": [
                     "f6p"
@@ -527,7 +530,7 @@
             }
         },
         {
-            "_initial_condition": 0.0006480821650219894,
+            "_initial_condition": 0.013089471160983685,
             "annotation": {
                 "bigg.metabolite": [
                     "g6p"
@@ -579,7 +582,7 @@
             }
         },
         {
-            "_initial_condition": 0.0004763439946571657,
+            "_initial_condition": 0.007574281479955034,
             "annotation": {
                 "bigg.metabolite": [
                     "adp"
@@ -643,7 +646,7 @@
             }
         },
         {
-            "_initial_condition": 0.0028846804943861116,
+            "_initial_condition": 0.1469305319214865,
             "annotation": {
                 "bigg.metabolite": [
                     "atp"
@@ -711,7 +714,7 @@
             }
         },
         {
-            "_initial_condition": 0.03936167781546603,
+            "_initial_condition": 0.02438825770221236,
             "annotation": {
                 "bigg.metabolite": [
                     "fdp"
@@ -915,7 +918,7 @@
             }
         },
         {
-            "_initial_condition": 0.002624807247447845,
+            "_initial_condition": 0.002464768176012003,
             "annotation": {
                 "bigg.metabolite": [
                     "pi"
@@ -997,7 +1000,7 @@
             }
         },
         {
-            "_initial_condition": 0.009082440254973907,
+            "_initial_condition": 0.006018492505063372,
             "annotation": {
                 "bigg.metabolite": [
                     "dhap"
@@ -1052,7 +1055,7 @@
             }
         },
         {
-            "_initial_condition": 0.00044799442381918294,
+            "_initial_condition": 0.0006963881901355828,
             "annotation": {
                 "bigg.metabolite": [
                     "g3p"
@@ -1111,7 +1114,7 @@
             }
         },
         {
-            "_initial_condition": 6.181670707513797e-05,
+            "_initial_condition": 0.00016634978434234375,
             "annotation": {
                 "bigg.metabolite": [
                     "13dpg"
@@ -1161,7 +1164,7 @@
             }
         },
         {
-            "_initial_condition": 0.02687495079181105,
+            "_initial_condition": 0.038180796827499495,
             "annotation": {
                 "bigg.metabolite": [
                     "nad"
@@ -1223,7 +1226,7 @@
             }
         },
         {
-            "_initial_condition": 9.004069850134116e-05,
+            "_initial_condition": 7.332767890982006e-05,
             "annotation": {
                 "bigg.metabolite": [
                     "nadh"
@@ -1278,7 +1281,7 @@
             }
         },
         {
-            "_initial_condition": 0.007711504877083718,
+            "_initial_condition": 0.007922340942734996,
             "annotation": {
                 "bigg.metabolite": [
                     "3pg"
@@ -1331,7 +1334,7 @@
             }
         },
         {
-            "_initial_condition": 0.0006029238905338453,
+            "_initial_condition": 0.0012099905069214538,
             "annotation": {
                 "bigg.metabolite": [
                     "2pg"
@@ -1387,7 +1390,7 @@
             }
         },
         {
-            "_initial_condition": 0.0014287638608814514,
+            "_initial_condition": 0.0018695170383443802,
             "annotation": {
                 "bigg.metabolite": [
                     "pep"
@@ -1441,7 +1444,7 @@
             }
         },
         {
-            "_initial_condition": 0.0009788994175554684,
+            "_initial_condition": 0.00029328937075457344,
             "annotation": {
                 "bigg.metabolite": [
                     "pyr"
@@ -1504,7 +1507,7 @@
             }
         },
         {
-            "_initial_condition": 0.0022601320407436157,
+            "_initial_condition": 0.0016016613933310495,
             "annotation": {
                 "bigg.metabolite": [
                     "amp"
@@ -1574,7 +1577,7 @@
             }
         },
         {
-            "_initial_condition": 0.04895019712907307,
+            "_initial_condition": 0.002351321587995419,
             "annotation": {
                 "bigg.metabolite": [
                     "lac__D"
@@ -1625,7 +1628,7 @@
             }
         },
         {
-            "_initial_condition": 0.0004927772118659275,
+            "_initial_condition": 0.00012133529512859641,
             "annotation": {
                 "bigg.metabolite": [
                     "gdp"
@@ -1687,8 +1690,8 @@
     ],
     "reactions": [
         {
-            "_equilibrium_constant": 0.364,
-            "_forward_rate_constant": 5492.905313631625,
+            "_equilibrium_constant": 0.25839366147825454,
+            "_forward_rate_constant": 0.05268596584998118,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -1719,12 +1722,12 @@
                     "PGI"
                 ]
             },
-            "steady_state_flux": -6.134527749345577,
+            "steady_state_flux": -0.0003583859014502609,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
-            "_equilibrium_constant": 2000.0,
-            "_forward_rate_constant": 9675144.968827626,
+            "_equilibrium_constant": 1999.9999999999998,
+            "_forward_rate_constant": 3.064904880704521,
             "_lower_bound": 0.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -1761,12 +1764,12 @@
                     "PFK"
                 ]
             },
-            "steady_state_flux": 12.18336207447461,
+            "steady_state_flux": 0.0023143621033626708,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
-            "_equilibrium_constant": 41.5,
-            "_forward_rate_constant": 33.04280308199786,
+            "_equilibrium_constant": 41.49999999999999,
+            "_forward_rate_constant": 0.012439247129669536,
             "_lower_bound": 0.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -1805,12 +1808,12 @@
                     "FBP"
                 ]
             },
-            "steady_state_flux": 1.1091892430584462,
+            "steady_state_flux": 0.00030336776729765155,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
-            "_equilibrium_constant": 0.00016,
-            "_forward_rate_constant": 521.8933543907954,
+            "_equilibrium_constant": 0.00035804267900051644,
+            "_forward_rate_constant": 0.1585661203401262,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -1854,12 +1857,12 @@
                     "FBA"
                 ]
             },
-            "steady_state_flux": 11.074172831416163,
+            "steady_state_flux": 0.0020109943360650195,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
-            "_equilibrium_constant": 0.10695187,
-            "_forward_rate_constant": 1485.8361639617353,
+            "_equilibrium_constant": 0.20373569515132714,
+            "_forward_rate_constant": 0.7733414611473967,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -1943,12 +1946,12 @@
                     "TPI"
                 ]
             },
-            "steady_state_flux": 11.091892430582858,
+            "steady_state_flux": 0.0020109943360649995,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
-            "_equilibrium_constant": 0.452,
-            "_forward_rate_constant": 611095483.1125207,
+            "_equilibrium_constant": 0.5866311214858256,
+            "_forward_rate_constant": 73465.82700303325,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2039,12 +2042,12 @@
                     "GAPD"
                 ]
             },
-            "steady_state_flux": 24.58906387308197,
+            "steady_state_flux": 0.003286970827905946,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
-            "_equilibrium_constant": 0.00053,
-            "_forward_rate_constant": 353817.45476896834,
+            "_equilibrium_constant": 0.0005300000000000002,
+            "_forward_rate_constant": 2.7091449938749657,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2132,12 +2135,12 @@
                     "PGK"
                 ]
             },
-            "steady_state_flux": -24.58906387308197,
+            "steady_state_flux": -0.0032869708279059445,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
-            "_equilibrium_constant": 5.3,
-            "_forward_rate_constant": 14594.636820670445,
+            "_equilibrium_constant": 2.178139808552923,
+            "_forward_rate_constant": 1.4976265326080815,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2224,12 +2227,12 @@
                     "PGM"
                 ]
             },
-            "steady_state_flux": -22.89047208022483,
+            "steady_state_flux": -0.003635060784163543,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
             "_equilibrium_constant": 5.19,
-            "_forward_rate_constant": 37956.44840856139,
+            "_forward_rate_constant": 4.277673025412526,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2316,12 +2319,12 @@
                     "ENO"
                 ]
             },
-            "steady_state_flux": 22.89047208022483,
+            "steady_state_flux": 0.003635060784163542,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
-            "_equilibrium_constant": 21739.1304,
-            "_forward_rate_constant": 5531997.492544657,
+            "_equilibrium_constant": 21739.130399999984,
+            "_forward_rate_constant": 75.66662122740158,
             "_lower_bound": 0.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2391,12 +2394,12 @@
                     "PYK"
                 ]
             },
-            "steady_state_flux": 4.299489711976595,
+            "steady_state_flux": 0.0010713081502410778,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
             "_equilibrium_constant": 2.41,
-            "_forward_rate_constant": 314682.85423191247,
+            "_forward_rate_constant": 6.112626546665103,
             "_lower_bound": 0.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2447,11 +2450,11 @@
                     "PPS"
                 ]
             },
-            "steady_state_flux": 0.3731431019204869,
+            "steady_state_flux": 0.0002633936944840742,
             "subsystem": "Glycolysis/Gluconeogenesis"
         },
         {
-            "_equilibrium_constant": 6.7e-05,
+            "_equilibrium_constant": 0.00023955610487422,
             "_forward_rate_constant": 100000.0,
             "_lower_bound": -1000.0,
             "_reversible": true,
@@ -2501,12 +2504,12 @@
                     "LDH_D"
                 ]
             },
-            "steady_state_flux": 0.0,
+            "steady_state_flux": -1.3552527156068805e-15,
             "subsystem": "Pyruvate Metabolism"
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 28401.708499323846,
+            "_forward_rate_constant": 0.4445292590455187,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2519,11 +2522,11 @@
                 "f6p_c": 1
             },
             "name": "D-Fructose 6-phosphate sink",
-            "steady_state_flux": 17.208700580761743
+            "steady_state_flux": 0.002369380237515281
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 11199.271255128717,
+            "_forward_rate_constant": 0.14756322346211823,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2536,11 +2539,11 @@
                 "g6p_c": -1
             },
             "name": "D-Glucose 6-phosphate sink",
-            "steady_state_flux": 6.134527749345577
+            "steady_state_flux": 0.00035838590145026054
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 20416.55007471035,
+            "_forward_rate_constant": 0.34576311733872916,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2553,11 +2556,11 @@
                 "adp_c": 1
             },
             "name": "ADP C10H12N5O10P2 sink",
-            "steady_state_flux": 16.705191510583955
+            "steady_state_flux": 0.0020439168747843524
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 7773.630546275937,
+            "_forward_rate_constant": 0.043114076943893874,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2570,11 +2573,11 @@
                 "atp_c": -1
             },
             "name": "ATP C10H12N5O13P3 sink",
-            "steady_state_flux": 16.332048408663468
+            "steady_state_flux": 0.0017805231803002786
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 1.984412093920852e-14,
+            "_forward_rate_constant": 3.501646768208088e-17,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2584,14 +2587,14 @@
             "gene_reaction_rule": "",
             "id": "SK_fdp_c",
             "metabolites": {
-                "fdp_c": -1
+                "fdp_c": 1
             },
             "name": "D-Fructose 1,6-bisphosphate sink",
-            "steady_state_flux": 6.661338147750939e-16
+            "steady_state_flux": 1.3371100336624187e-20
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 33.21922243942095,
+            "_forward_rate_constant": 0.00926974330798063,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2604,11 +2607,11 @@
                 "h_c": -1
             },
             "name": "H+ sink",
-            "steady_state_flux": 33.21922243942095
+            "steady_state_flux": 0.0
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 21.408139735245896,
+            "_forward_rate_constant": 0.005402819867644414,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2621,11 +2624,11 @@
                 "h2o_c": -1
             },
             "name": "H2O H2O sink",
-            "steady_state_flux": 21.408139735245896
+            "steady_state_flux": 0.0
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 5146.291867625791,
+            "_forward_rate_constant": 1.5096025181615675,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2638,11 +2641,11 @@
                 "pi_c": 1
             },
             "name": "Phosphate sink",
-            "steady_state_flux": 23.106731528103037
+            "steady_state_flux": 0.0027202093661242194
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 1.8800277893645754,
+            "_forward_rate_constant": 5.399878000141464e-14,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2652,14 +2655,14 @@
             "gene_reaction_rule": "",
             "id": "SK_dhap_c",
             "metabolites": {
-                "dhap_c": 1
+                "dhap_c": -1
             },
             "name": "Dihydroxyacetone phosphate sink",
-            "steady_state_flux": 0.017719599166694522
+            "steady_state_flux": 2.011360181815602e-17
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 11558.132642227554,
+            "_forward_rate_constant": 2.0542652933607055,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2672,11 +2675,11 @@
                 "g3p_c": 1
             },
             "name": "Glyceraldehyde 3-phosphate sink",
-            "steady_state_flux": 2.4229986110829476
+            "steady_state_flux": -0.0007350178442240728
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 476.3632359076871,
+            "_forward_rate_constant": 0.09352187947097025,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2689,11 +2692,11 @@
                 "nad_c": 1
             },
             "name": "Nicotinamide adenine dinucleotide sink",
-            "steady_state_flux": 24.58906387308197
+            "steady_state_flux": 0.0032869708279059454
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 403993.85863910365,
+            "_forward_rate_constant": 138.34723375459694,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2706,11 +2709,11 @@
                 "nadh_c": -1
             },
             "name": "Nicotinamide adenine dinucleotide - reduced sink",
-            "steady_state_flux": 24.58906387308197
+            "steady_state_flux": 0.0032869708279059475
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 136.1164088390767,
+            "_forward_rate_constant": 0.0871105892062473,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2723,11 +2726,11 @@
                 "_3pg_c": -1
             },
             "name": "3-Phospho-D-glycerate sink",
-            "steady_state_flux": 1.6985917928571403
+            "steady_state_flux": -0.0003480899562575967
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 19963.49025622046,
+            "_forward_rate_constant": 4.044315944345022,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2740,11 +2743,11 @@
                 "pep_c": -1
             },
             "name": "Phosphoenolpyruvate sink",
-            "steady_state_flux": 18.96412547016872
+            "steady_state_flux": 0.002827146328406538
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 6949.757385028826,
+            "_forward_rate_constant": 6.456572824755497,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2757,11 +2760,11 @@
                 "pyr_c": -1
             },
             "name": "Pyruvate sink",
-            "steady_state_flux": 3.9263466100561084
+            "steady_state_flux": 0.0008079144557570035
         },
         {
             "_equilibrium_constant": 1,
-            "_forward_rate_constant": 557.7734270964573,
+            "_forward_rate_constant": 0.2322380176968238,
             "_lower_bound": -1000.0,
             "_reversible": true,
             "_upper_bound": 1000.0,
@@ -2774,7 +2777,7 @@
                 "amp_c": -1
             },
             "name": "AMP C10H12N5O7P sink",
-            "steady_state_flux": 0.3731431019204869
+            "steady_state_flux": 0.00026339369448407426
         }
     ],
     "units": [],
